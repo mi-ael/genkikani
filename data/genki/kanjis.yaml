@@ -1,0 +1,142 @@
+- kanji: 一
+  meaning: one
+  onyomi:
+  - reading: いち
+    important: true
+  - reading: いっ
+    important: false
+  kunyomi:
+  - reading: ひと
+    important: false
+- kanji: 二
+  meaning: two
+  onyomi:
+  - reading: に
+    important: true
+  kunyomi:
+  - reading: ふた
+    important: false
+- kanji: 三
+  meaning: three
+  onyomi:
+  - reading: さん
+    important: true
+  kunyomi:
+  - reading: みっ
+    important: false
+- kanji: 四
+  meaning: four
+  onyomi:
+  - reading: し
+    important: false
+  kunyomi:
+  - reading: よん
+    important: true
+  - reading: よ
+    important: true
+  - reading: よっ
+    important: false
+- kanji: 五
+  meaning: five
+  onyomi:
+  - reading: ご
+    important: true
+  kunyomi:
+  - reading: いつ
+    important: false
+- kanji: 六
+  meaning: six
+  onyomi:
+  - reading: ろく
+    important: true
+  - reading: ろっ
+    important: true
+  kunyomi:
+  - reading: むっ
+    important: false
+- kanji: 七
+  meaning: seven
+  onyomi:
+  - reading: しち
+    important: true
+  kunyomi:
+  - reading: なな
+    important: true
+- kanji: 八
+  meaning: eight
+  onyomi:
+  - reading: はち
+    important: true
+  - reading: はっ
+    important: true
+  kunyomi:
+  - reading: やっ
+    important: false
+- kanji: 九
+  meaning: nine
+  onyomi:
+  - reading: きゅう
+    important: true
+  - reading: く
+    important: true
+  kunyomi:
+  - reading: ここの
+    important: false
+- kanji: 十
+  meaning: ten
+  onyomi:
+  - reading: じゅう
+    important: true
+  - reading: じゅっ
+    important: false
+  - reading: じっ
+    important: false
+  kunyomi:
+  - reading: とお
+    important: false
+- kanji: 百
+  meaning: hundred
+  onyomi:
+  - reading: ひゃく
+    important: true
+  - reading: びゃく
+    important: true
+  - reading: ぴゃく
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 千
+  meaning: thousand
+  onyomi:
+  - reading: せん
+    important: true
+  - reading: ぜん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 万
+  meaning: ten thousand
+  onyomi:
+  - reading: まん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 円
+  meaning: yen; circle
+  onyomi:
+  - reading: えん
+    important: true
+  kunyomi:
+  - reading: まる
+    important: false
+- kanji: 時
+  meaning: time
+  onyomi:
+  - reading: じ
+    important: true
+  kunyomi:
+  - reading: とき
+    important: false

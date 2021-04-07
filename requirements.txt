@@ -6,3 +6,4 @@ requests
 orderedset
 cachier
 wanikani-api
+jaconv

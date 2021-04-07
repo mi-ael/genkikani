@@ -36,7 +36,7 @@ assert len(sys.argv) == 2 # needs wanikani api key
 v2_api_key = sys.argv[1]
 client = Client(v2_api_key)
 
-folder_path = 'data/sound'
+folder_path = 'data/wanikani/sound'
 os.makedirs(folder_path, exist_ok=True)
 
 vocabulary = client.subjects(types="vocabulary", fetch_all=True)
@@ -58,7 +58,7 @@ for e in in_dict['data']:
     audio_filename = get_filename(audio_url) if audio_url is not None else None
     if audio_filename is not None:
         audio = requests.get(audio_url)
-        with open(f'data/sound/{audio_filename}', 'wb') as o:
+        with open(f'data/wanikani/sound/{audio_filename}', 'wb') as o:
             o.write(audio.content)
     vocab_dict[_id] = {
         'word': word,
@@ -70,7 +70,7 @@ for e in in_dict['data']:
         'sound': audio_filename
     }
 
-with open('data/vocabulary.yaml', 'w+') as o:
+with open('data/wanikani/vocabulary.yaml', 'w+') as o:
     yaml.dump(vocab_dict, o)
 
 in_dict = kanjis.current_page._raw
@@ -101,7 +101,7 @@ for e in in_dict['data']:
         'reading_hint': reading_hint,
     }
 
-with open('data/kanjis.yaml', 'w+') as o:
+with open('data/wanikani/kanjis.yaml', 'w+') as o:
     yaml.dump(kanji_dict, o)
 
 in_dict = radicals.current_page._raw
@@ -116,5 +116,5 @@ for e in in_dict['data']:
         'meanings': meanings,
     }
 
-with open('data/radicals.yaml', 'w+') as o:
+with open('data/wanikani/radicals.yaml', 'w+') as o:
     yaml.dump(radical_dict, o)
