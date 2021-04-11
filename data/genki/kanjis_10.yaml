@@ -1,0 +1,116 @@
+- kanji: 住
+  meaning: to live
+  onyomi:
+  - reading: じゅう
+    important: false
+  kunyomi:
+  - reading: す
+    important: true
+- kanji: 正
+  meaning: right
+  onyomi:
+  - reading: しょう
+    important: true
+  - reading: せい
+    important: false
+  kunyomi:
+  - reading: ただ
+    important: false
+- kanji: 年
+  meaning: year
+  onyomi:
+  - reading: ねん
+    important: true
+  kunyomi:
+  - reading: とし
+    important: true
+- kanji: 売
+  meaning: to sell
+  onyomi:
+  - reading: ばい
+    important: false
+  kunyomi:
+  - reading: う
+    important: true
+- kanji: 買
+  meaning: to buy
+  onyomi:
+  - reading: ばい
+    important: false
+  kunyomi:
+  - reading: か
+    important: true
+- kanji: 町
+  meaning: town
+  onyomi:
+  - reading: ちょう
+    important: false
+  kunyomi:
+  - reading: まち
+    important: true
+- kanji: 長
+  meaning: long
+  onyomi:
+  - reading: ちょう
+    important: false
+  kunyomi:
+  - reading: なが
+    important: false
+- kanji: 道
+  meaning: way
+  onyomi:
+  - reading: どう
+    important: false
+  kunyomi:
+  - reading: みち
+    important: true
+- kanji: 雪
+  meaning: snow
+  onyomi:
+  - reading: せつ
+    important: false
+  kunyomi:
+  - reading: ゆき
+    important: true
+- kanji: 立
+  meaning: to stand
+  onyomi:
+  - reading: りつ
+    important: false
+  kunyomi:
+  - reading: た
+    important: true
+- kanji: 自
+  meaning: self
+  onyomi:
+  - reading: じ
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 夜
+  meaning: night
+  onyomi:
+  - reading: や
+    important: false
+  kunyomi:
+  - reading: よる
+    important: true
+  - reading: よ
+    important: false
+- kanji: 朝
+  meaning: morning
+  onyomi:
+  - reading: ちょう
+    important: false
+  kunyomi:
+  - reading: あさ
+    important: true
+- kanji: 持
+  meaning: to hold
+  onyomi:
+  - reading: じ
+    important: false
+  kunyomi:
+  - reading: も
+    important: true

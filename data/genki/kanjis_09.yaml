@@ -1,0 +1,134 @@
+- kanji: 午
+  meaning: noon
+  onyomi:
+  - reading: ご
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 後
+  meaning: after
+  onyomi:
+  - reading: ご
+    important: true
+  kunyomi:
+  - reading: あと
+    important: true
+  - reading: うし
+    important: true
+- kanji: 前
+  meaning: before
+  onyomi:
+  - reading: ぜん
+    important: true
+  kunyomi:
+  - reading: まえ
+    important: true
+- kanji: 名
+  meaning: name
+  onyomi:
+  - reading: めい
+    important: false
+  - reading: みょう
+    important: false
+  kunyomi:
+  - reading: な
+    important: true
+- kanji: 白
+  meaning: white
+  onyomi:
+  - reading: はく
+    important: false
+  kunyomi:
+  - reading: しろ
+    important: true
+- kanji: 雨
+  meaning: rain
+  onyomi:
+  - reading: う
+    important: false
+  kunyomi:
+  - reading: あめ
+    important: true
+- kanji: 書
+  meaning: to write
+  onyomi:
+  - reading: しょ
+    important: false
+  kunyomi:
+  - reading: か
+    important: true
+- kanji: 友
+  meaning: friend
+  onyomi:
+  - reading: ゆう
+    important: false
+  kunyomi:
+  - reading: とも
+    important: true
+- kanji: 間
+  meaning: between
+  onyomi:
+  - reading: かん
+    important: true
+  - reading: げん
+    important: false
+  kunyomi:
+  - reading: あいだ
+    important: true
+- kanji: 家
+  meaning: house
+  onyomi:
+  - reading: か
+    important: false
+  kunyomi:
+  - reading: いえ
+    important: true
+- kanji: 話
+  meaning: to speak
+  onyomi:
+  - reading: わ
+    important: true
+  kunyomi:
+  - reading: はな
+    important: true
+  - reading: はなし
+    important: true
+- kanji: 少
+  meaning: little
+  onyomi:
+  - reading: しょう
+    important: false
+  kunyomi:
+  - reading: すこ
+    important: true
+  - reading: すく
+    important: false
+- kanji: 古
+  meaning: old
+  onyomi:
+  - reading: こ
+    important: false
+  kunyomi:
+  - reading: ふる
+    important: true
+- kanji: 知
+  meaning: to know
+  onyomi:
+  - reading: ち
+    important: false
+  kunyomi:
+  - reading: し
+    important: true
+- kanji: 来
+  meaning: to come
+  onyomi:
+  - reading: らい
+    important: false
+  kunyomi:
+  - reading: く
+    important: true
+  - reading: き
+    important: true
+  - reading: こ
+    important: true

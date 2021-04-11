@@ -1,0 +1,118 @@
+- kanji: 員
+  meaning: member
+  onyomi:
+  - reading: いん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 新
+  meaning: new
+  onyomi:
+  - reading: しん
+    important: true
+  kunyomi:
+  - reading: あたら
+    important: true
+- kanji: 聞
+  meaning: to listen
+  onyomi:
+  - reading: ぶん
+    important: true
+  kunyomi:
+  - reading: き
+    important: true
+- kanji: 作
+  meaning: to make
+  onyomi:
+  - reading: さく
+    important: false
+  kunyomi:
+  - reading: つく
+    important: true
+- kanji: 仕
+  meaning: to serve
+  onyomi:
+  - reading: し
+    important: true
+  kunyomi:
+  - reading: つか
+    important: false
+- kanji: 事
+  meaning: thing
+  onyomi:
+  - reading: じ
+    important: false
+  kunyomi:
+  - reading: ごと
+    important: true
+  - reading: こと
+    important: false
+- kanji: 電
+  meaning: electricity
+  onyomi:
+  - reading: でん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 車
+  meaning: car
+  onyomi:
+  - reading: しゃ
+    important: true
+  kunyomi:
+  - reading: くるま
+    important: true
+- kanji: 休
+  meaning: to rest
+  onyomi:
+  - reading: きゅう
+    important: false
+  kunyomi:
+  - reading: やす
+    important: true
+- kanji: 言
+  meaning: to say
+  onyomi:
+  - reading: げん
+    important: false
+  kunyomi:
+  - reading: い
+    important: true
+  - reading: こと
+    important: false
+- kanji: 読
+  meaning: to read
+  onyomi:
+  - reading: どく
+    important: false
+  kunyomi:
+  - reading: よ
+    important: true
+- kanji: 思
+  meaning: to think
+  onyomi:
+  - reading: し
+    important: false
+  kunyomi:
+  - reading: おも
+    important: true
+- kanji: 次
+  meaning: next
+  onyomi:
+  - reading: じ
+    important: false
+  kunyomi:
+  - reading: つぎ
+    important: true
+- kanji: 何
+  meaning: what
+  onyomi:
+  - reading: ''
+    important: false
+  kunyomi:
+  - reading: なに
+    important: true
+  - reading: なん
+    important: true

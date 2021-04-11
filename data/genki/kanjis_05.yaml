@@ -1,0 +1,120 @@
+- kanji: 山
+  meaning: mountain
+  onyomi:
+  - reading: さん
+    important: false
+  kunyomi:
+  - reading: やま
+    important: true
+- kanji: 川
+  meaning: river
+  onyomi:
+  - reading: ''
+    important: false
+  kunyomi:
+  - reading: かわ
+    important: true
+  - reading: がわ
+    important: false
+- kanji: 元
+  meaning: origin
+  onyomi:
+  - reading: げん
+    important: true
+  - reading: がん
+    important: false
+  kunyomi:
+  - reading: もと
+    important: false
+- kanji: 気
+  meaning: spirit
+  onyomi:
+  - reading: き
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 天
+  meaning: heaven
+  onyomi:
+  - reading: てん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 私
+  meaning: I; private
+  onyomi:
+  - reading: し
+    important: false
+  kunyomi:
+  - reading: わたし
+    important: true
+- kanji: 今
+  meaning: now
+  onyomi:
+  - reading: こん
+    important: false
+  kunyomi:
+  - reading: いま
+    important: true
+- kanji: 田
+  meaning: rice field
+  onyomi:
+  - reading: ''
+    important: false
+  kunyomi:
+  - reading: た
+    important: true
+  - reading: だ
+    important: true
+- kanji: 女
+  meaning: woman
+  onyomi:
+  - reading: じょ
+    important: false
+  kunyomi:
+  - reading: おんな
+    important: true
+- kanji: 男
+  meaning: man
+  onyomi:
+  - reading: だん
+    important: false
+  kunyomi:
+  - reading: おとこ
+    important: true
+- kanji: 見
+  meaning: to see
+  onyomi:
+  - reading: けん
+    important: false
+  kunyomi:
+  - reading: み
+    important: true
+- kanji: 行
+  meaning: to go
+  onyomi:
+  - reading: こう
+    important: false
+  - reading: ぎょう
+    important: false
+  kunyomi:
+  - reading: い
+    important: true
+- kanji: 食
+  meaning: to eat
+  onyomi:
+  - reading: しょく
+    important: false
+  kunyomi:
+  - reading: た
+    important: true
+- kanji: 飲
+  meaning: to drink
+  onyomi:
+  - reading: いん
+    important: false
+  kunyomi:
+  - reading: の
+    important: true

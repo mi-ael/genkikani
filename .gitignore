@@ -1,3 +1,6 @@
+.vscode
 venv
 key
 data/wanikani
+wanigenki.apkg
+src/__pycache__/anki_exporter.cpython-39.pyc

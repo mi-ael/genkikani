@@ -41,30 +41,31 @@ def extract_readings(reading) -> []:
 
 
 if __name__ == "__main__":
-    card_ids = invoke('findNotes', query='deck:Genki_I::L3_Kanji')
-    cards = invoke('notesInfo', notes=card_ids)
-    kanjis = []
-    vocabs = []
-    for c in cards:
-        kanji_note = {}
-        fields = c['fields']
-        kanji = fields['Kanji']['value']
-        meaning = fields['Bedeutung']['value']
-        onyomi = extract_readings(fields['Onyomi']['value'])
-        kunyomi = extract_readings(fields['Kunyomi']['value'])
-        kanjis.append({
-            'kanji': kanji,
-            'meaning': meaning,
-            'onyomi': onyomi,
-            'kunyomi': kunyomi,
-        })
+    for i in range(3, 13):
+        card_ids = invoke('findNotes', query=f'deck:Genki_I::L{i}_Kanji')
+        cards = invoke('notesInfo', notes=card_ids)
+        kanjis = []
+        vocabs = []
+        for c in cards:
+            kanji_note = {}
+            fields = c['fields']
+            kanji = fields['Kanji']['value']
+            meaning = fields['Bedeutung']['value']
+            onyomi = extract_readings(fields['Onyomi']['value'])
+            kunyomi = extract_readings(fields['Kunyomi']['value'])
+            kanjis.append({
+                'kanji': kanji,
+                'meaning': meaning,
+                'onyomi': onyomi,
+                'kunyomi': kunyomi,
+            })
 
-    folder_path = 'data/genki'
-    os.makedirs(folder_path, exist_ok=True)
+        folder_path = 'data/genki'
+        os.makedirs(folder_path, exist_ok=True)
 
-    
-    with open('data/genki/kanjis.yaml', 'w+') as o:
-        yaml.dump(kanjis, o)
+        
+        with open(f'{folder_path}/kanjis_{str(i).zfill(2)}.yaml', 'w+') as o:
+            yaml.dump(kanjis, o)
 
 
 

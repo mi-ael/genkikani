@@ -1,0 +1,120 @@
+- kanji: 昔
+  meaning: ancient times
+  onyomi:
+  - reading: ''
+    important: false
+  kunyomi:
+  - reading: むかし
+    important: true
+- kanji: 々
+  meaning: symbol of repetition of a kanji
+  onyomi:
+  - reading: ''
+    important: false
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 神
+  meaning: God
+  onyomi:
+  - reading: じん
+    important: true
+  - reading: しん
+    important: false
+  - reading: こう
+    important: false
+  kunyomi:
+  - reading: かみ
+    important: true
+- kanji: 早
+  meaning: early
+  onyomi:
+  - reading: そう
+    important: false
+  kunyomi:
+  - reading: はや
+    important: true
+- kanji: 起
+  meaning: to get up
+  onyomi:
+  - reading: き
+    important: false
+  kunyomi:
+  - reading: お
+    important: true
+- kanji: 牛
+  meaning: cow
+  onyomi:
+  - reading: ぎゅう
+    important: false
+  kunyomi:
+  - reading: うし
+    important: true
+- kanji: 使
+  meaning: to use
+  onyomi:
+  - reading: し
+    important: false
+  kunyomi:
+  - reading: つか
+    important: true
+- kanji: 働
+  meaning: to work
+  onyomi:
+  - reading: どう
+    important: false
+  kunyomi:
+  - reading: はたら
+    important: true
+  - reading: ばたら
+    important: false
+- kanji: 連
+  meaning: to link
+  onyomi:
+  - reading: れん
+    important: false
+  kunyomi:
+  - reading: つ
+    important: true
+- kanji: 別
+  meaning: to separate
+  onyomi:
+  - reading: べつ
+    important: true
+  kunyomi:
+  - reading: わか
+    important: true
+- kanji: 度
+  meaning: time; degrees
+  onyomi:
+  - reading: ど
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 赤
+  meaning: red
+  onyomi:
+  - reading: せき
+    important: false
+  kunyomi:
+  - reading: あか
+    important: true
+- kanji: 青
+  meaning: blue
+  onyomi:
+  - reading: せい
+    important: false
+  kunyomi:
+  - reading: あお
+    important: true
+- kanji: 色
+  meaning: color
+  onyomi:
+  - reading: しき
+    important: false
+  - reading: しょく
+    important: false
+  kunyomi:
+  - reading: いろ
+    important: true

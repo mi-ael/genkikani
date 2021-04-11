@@ -28,6 +28,8 @@ def get_filename(url):
         return ""
     return os.path.basename(scheme_removed)
 
+def get_entries_from_data(data):
+    return [item for page in data.pages for item in page._raw['data']]
 
 
 yaml=YAML()
@@ -43,9 +45,10 @@ vocabulary = client.subjects(types="vocabulary", fetch_all=True)
 kanjis = client.subjects(types="kanji", fetch_all=True)
 radicals = client.subjects(types="radical", fetch_all=True)
 
-in_dict = vocabulary.current_page._raw
+flat_vocab = get_entries_from_data(vocabulary)
+#in_dict = vocabulary.current_page._raw
 vocab_dict = {}
-for e in in_dict['data']:
+for e in flat_vocab:
     _id = e['id']
     data = e['data']
     word = data['characters']
@@ -73,9 +76,11 @@ for e in in_dict['data']:
 with open('data/wanikani/vocabulary.yaml', 'w+') as o:
     yaml.dump(vocab_dict, o)
 
-in_dict = kanjis.current_page._raw
+flat_vocab = get_entries_from_data(kanjis)
+
+#in_dict = kanjis.current_page._raw
 kanji_dict = {}
-for e in in_dict['data']:
+for e in flat_vocab:
     _id = e['id']
     data = e['data']
     word = data['characters']
@@ -104,16 +109,19 @@ for e in in_dict['data']:
 with open('data/wanikani/kanjis.yaml', 'w+') as o:
     yaml.dump(kanji_dict, o)
 
-in_dict = radicals.current_page._raw
+flat_vocab = get_entries_from_data(radicals)
+#in_dict = radicals.current_page._raw
 radical_dict = {}
-for e in in_dict['data']:
+for e in flat_vocab:
     _id = e['id']
     data = e['data']
     word = data['characters']
     meanings = [m['meaning'] for m in data['meanings']]
+    meaning_mnemonic = data['meaning_mnemonic']
     radical_dict[_id] = {
         'word': word,
         'meanings': meanings,
+        'meaning_mnemonic': meaning_mnemonic, 
     }
 
 with open('data/wanikani/radicals.yaml', 'w+') as o:

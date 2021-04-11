@@ -1,0 +1,134 @@
+- kanji: 日
+  meaning: day; sun
+  onyomi:
+  - reading: に
+    important: true
+  - reading: にち
+    important: true
+  - reading: にっ
+    important: false
+  kunyomi:
+  - reading: び
+    important: true
+  - reading: ひ
+    important: false
+  - reading: か
+    important: false
+- kanji: 本
+  meaning: book; basis
+  onyomi:
+  - reading: ほん
+    important: true
+  kunyomi:
+  - reading: もと
+    important: false
+- kanji: 人
+  meaning: person
+  onyomi:
+  - reading: じん
+    important: true
+  - reading: にん
+    important: false
+  kunyomi:
+  - reading: ひと
+    important: true
+- kanji: 月
+  meaning: moon; month
+  onyomi:
+  - reading: げつ
+    important: true
+  - reading: がつ
+    important: true
+  kunyomi:
+  - reading: つき
+    important: false
+- kanji: 火
+  meaning: fire
+  onyomi:
+  - reading: か
+    important: true
+  kunyomi:
+  - reading: ひ
+    important: false
+  - reading: び
+    important: false
+- kanji: 水
+  meaning: water
+  onyomi:
+  - reading: すい
+    important: true
+  kunyomi:
+  - reading: みず
+    important: true
+- kanji: 木
+  meaning: tree
+  onyomi:
+  - reading: もく
+    important: true
+  kunyomi:
+  - reading: き
+    important: false
+- kanji: 金
+  meaning: gold; money
+  onyomi:
+  - reading: きん
+    important: true
+  kunyomi:
+  - reading: かね
+    important: false
+- kanji: 土
+  meaning: soil
+  onyomi:
+  - reading: ど
+    important: true
+  - reading: と
+    important: false
+  kunyomi:
+  - reading: つち
+    important: false
+- kanji: 曜
+  meaning: weekday
+  onyomi:
+  - reading: よう
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 上
+  meaning: up
+  onyomi:
+  - reading: じょう
+    important: false
+  kunyomi:
+  - reading: うえ
+    important: true
+  - reading: のぼ
+    important: false
+- kanji: 下
+  meaning: down
+  onyomi:
+  - reading: か
+    important: false
+  kunyomi:
+  - reading: した
+    important: true
+  - reading: くだ
+    important: false
+- kanji: 中
+  meaning: middle
+  onyomi:
+  - reading: ちゅう
+    important: false
+  - reading: じゅう
+    important: false
+  kunyomi:
+  - reading: なか
+    important: true
+- kanji: 半
+  meaning: half
+  onyomi:
+  - reading: はん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false

@@ -1,0 +1,146 @@
+- kanji: 東
+  meaning: east
+  onyomi:
+  - reading: とう
+    important: false
+  kunyomi:
+  - reading: ひがし
+    important: true
+- kanji: 西
+  meaning: west
+  onyomi:
+  - reading: せい
+    important: false
+  - reading: さい
+    important: false
+  kunyomi:
+  - reading: にし
+    important: true
+- kanji: 南
+  meaning: south
+  onyomi:
+  - reading: なん
+    important: false
+  kunyomi:
+  - reading: みなみ
+    important: true
+- kanji: 北
+  meaning: north
+  onyomi:
+  - reading: ほく
+    important: false
+  - reading: ほっ
+    important: false
+  kunyomi:
+  - reading: きた
+    important: true
+- kanji: 口
+  meaning: mouth
+  onyomi:
+  - reading: こう
+    important: false
+  kunyomi:
+  - reading: ぐち
+    important: true
+  - reading: くち
+    important: false
+- kanji: 出
+  meaning: to exit
+  onyomi:
+  - reading: しゅっ
+    important: false
+  - reading: しゅつ
+    important: false
+  kunyomi:
+  - reading: で
+    important: true
+  - reading: だ
+    important: false
+- kanji: 右
+  meaning: right
+  onyomi:
+  - reading: う
+    important: false
+  - reading: ゆう
+    important: false
+  kunyomi:
+  - reading: みぎ
+    important: true
+- kanji: 左
+  meaning: left
+  onyomi:
+  - reading: さ
+    important: false
+  kunyomi:
+  - reading: ひだり
+    important: true
+- kanji: 分
+  meaning: minute; to divide
+  onyomi:
+  - reading: ふん
+    important: true
+  - reading: ぷん
+    important: true
+  - reading: ぶん
+    important: false
+  kunyomi:
+  - reading: わ
+    important: false
+- kanji: 先
+  meaning: ahead
+  onyomi:
+  - reading: せん
+    important: true
+  kunyomi:
+  - reading: さき
+    important: false
+- kanji: 生
+  meaning: birth
+  onyomi:
+  - reading: せい
+    important: true
+  - reading: しょう
+    important: false
+  kunyomi:
+  - reading: う
+    important: false
+- kanji: 大
+  meaning: big
+  onyomi:
+  - reading: だい
+    important: true
+  - reading: がっ
+    important: false
+  kunyomi:
+  - reading: おお
+    important: false
+- kanji: 学
+  meaning: learning
+  onyomi:
+  - reading: がく
+    important: true
+  - reading: がっ
+    important: false
+  kunyomi:
+  - reading: まん
+    important: false
+- kanji: 外
+  meaning: outside
+  onyomi:
+  - reading: がい
+    important: true
+  kunyomi:
+  - reading: そと
+    important: false
+- kanji: 国
+  meaning: country
+  onyomi:
+  - reading: こく
+    important: true
+  - reading: ごく
+    important: true
+  - reading: こっ
+    important: false
+  kunyomi:
+  - reading: くに
+    important: false

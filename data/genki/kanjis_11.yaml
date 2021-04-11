@@ -1,0 +1,140 @@
+- kanji: 手
+  meaning: hand
+  onyomi:
+  - reading: しゅ
+    important: true
+  kunyomi:
+  - reading: て
+    important: true
+- kanji: 紙
+  meaning: paper
+  onyomi:
+  - reading: し
+    important: false
+  kunyomi:
+  - reading: がみ
+    important: true
+  - reading: かみ
+    important: false
+- kanji: 好
+  meaning: favorite; to like
+  onyomi:
+  - reading: こう
+    important: false
+  kunyomi:
+  - reading: す
+    important: true
+  - reading: この
+    important: false
+- kanji: 近
+  meaning: near
+  onyomi:
+  - reading: きん
+    important: true
+  kunyomi:
+  - reading: ちか
+    important: true
+- kanji: 明
+  meaning: bright
+  onyomi:
+  - reading: めい
+    important: false
+  kunyomi:
+  - reading: あか
+    important: true
+- kanji: 病
+  meaning: ill; sick
+  onyomi:
+  - reading: びょう
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 院
+  meaning: institution
+  onyomi:
+  - reading: いん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 映
+  meaning: to reflect
+  onyomi:
+  - reading: えい
+    important: true
+  kunyomi:
+  - reading: うつ
+    important: false
+- kanji: 画
+  meaning: picture
+  onyomi:
+  - reading: が
+    important: true
+  - reading: かく
+    important: false
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 歌
+  meaning: to sing
+  onyomi:
+  - reading: か
+    important: true
+  kunyomi:
+  - reading: うた
+    important: true
+- kanji: 市
+  meaning: city
+  onyomi:
+  - reading: し
+    important: true
+  kunyomi:
+  - reading: いち
+    important: false
+- kanji: 所
+  meaning: place
+  onyomi:
+  - reading: じょ
+    important: true
+  - reading: しょ
+    important: false
+  kunyomi:
+  - reading: ところ
+    important: true
+  - reading: どころ
+    important: false
+- kanji: 勉
+  meaning: to make efforts
+  onyomi:
+  - reading: べん
+    important: true
+  kunyomi:
+  - reading: つと
+    important: false
+- kanji: 強
+  meaning: strong
+  onyomi:
+  - reading: きょう
+    important: true
+  - reading: ごう
+    important: false
+  kunyomi:
+  - reading: つよ
+    important: false
+- kanji: 有
+  meaning: to exist
+  onyomi:
+  - reading: ゆう
+    important: true
+  kunyomi:
+  - reading: あ
+    important: false
+- kanji: 旅
+  meaning: travel
+  onyomi:
+  - reading: りょ
+    important: true
+  kunyomi:
+  - reading: たび
+    important: false

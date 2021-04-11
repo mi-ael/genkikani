@@ -1,0 +1,122 @@
+- kanji: 京
+  meaning: capital
+  onyomi:
+  - reading: きょう
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 子
+  meaning: child
+  onyomi:
+  - reading: し
+    important: false
+  kunyomi:
+  - reading: こ
+    important: true
+- kanji: 小
+  meaning: small
+  onyomi:
+  - reading: しょう
+    important: false
+  kunyomi:
+  - reading: ちい
+    important: true
+- kanji: 会
+  meaning: to meet
+  onyomi:
+  - reading: かい
+    important: true
+  kunyomi:
+  - reading: あ
+    important: true
+- kanji: 社
+  meaning: company
+  onyomi:
+  - reading: しゃ
+    important: true
+  - reading: じゃ
+    important: false
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 父
+  meaning: father
+  onyomi:
+  - reading: ふ
+    important: false
+  kunyomi:
+  - reading: ちち
+    important: true
+  - reading: とう
+    important: true
+- kanji: 母
+  meaning: mother
+  onyomi:
+  - reading: ぼ
+    important: false
+  kunyomi:
+  - reading: はは
+    important: true
+  - reading: かあ
+    important: true
+- kanji: 高
+  meaning: high
+  onyomi:
+  - reading: こう
+    important: true
+  kunyomi:
+  - reading: たか
+    important: true
+- kanji: 校
+  meaning: school
+  onyomi:
+  - reading: こう
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 毎
+  meaning: every
+  onyomi:
+  - reading: まい
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 語
+  meaning: word
+  onyomi:
+  - reading: ご
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 文
+  meaning: sentence
+  onyomi:
+  - reading: ぶん
+    important: true
+  kunyomi:
+  - reading: ''
+    important: false
+- kanji: 帰
+  meaning: to return
+  onyomi:
+  - reading: き
+    important: false
+  kunyomi:
+  - reading: かえ
+    important: true
+- kanji: 入
+  meaning: to enter
+  onyomi:
+  - reading: にゅう
+    important: false
+  kunyomi:
+  - reading: はい
+    important: true
+  - reading: い
+    important: false
+  - reading: いり
+    important: false
