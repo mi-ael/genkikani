@@ -40,6 +40,8 @@ client = Client(v2_api_key)
 
 folder_path = 'data/wanikani/sound'
 os.makedirs(folder_path, exist_ok=True)
+os.makedirs('data/wanikani/images', exist_ok=True)
+
 
 vocabulary = client.subjects(types="vocabulary", fetch_all=True)
 kanjis = client.subjects(types="kanji", fetch_all=True)
@@ -118,10 +120,18 @@ for e in flat_vocab:
     word = data['characters']
     meanings = [m['meaning'] for m in data['meanings']]
     meaning_mnemonic = data['meaning_mnemonic']
+    image_filename = None
+    if word is None:
+        image_url = [e['url'] for e in data['character_images'] if e['content_type'] == 'image/png' and e['metadata']['dimensions'] == '1024x1024'][0]
+        image_filename = get_filename(image_url) if image_url is not None else None
+        image = requests.get(image_url)
+        with open(f'data/wanikani/images/{image_filename}', 'wb') as o:
+            o.write(image.content)
     radical_dict[_id] = {
         'word': word,
         'meanings': meanings,
-        'meaning_mnemonic': meaning_mnemonic, 
+        'meaning_mnemonic': meaning_mnemonic,
+        'image_filename': image_filename,
     }
 
 with open('data/wanikani/radicals.yaml', 'w+') as o:
