@@ -8,6 +8,27 @@
   kunyomi:
   - reading: ひと
     important: false
+  vocabulary:
+  - kanji: 一
+    kana: いち
+    meaning: one
+    important: true
+  - kanji: 一時
+    kana: いちじ
+    meaning: one o'clock
+    important: true
+  - kanji: 一年生
+    kana: いちねんせい
+    meaning: first-year student
+    important: false
+  - kanji: 一分
+    kana: いっぷん
+    meaning: one minute
+    important: false
+  - kanji: 一つ
+    kana: ひとつ
+    meaning: one thing
+    important: false
 - kanji: 二
   meaning: two
   onyomi:
@@ -16,6 +37,27 @@
   kunyomi:
   - reading: ふた
     important: false
+  vocabulary:
+  - kanji: ニ
+    kana: に
+    meaning: two
+    important: true
+  - kanji: 二時
+    kana: にじ
+    meaning: two o'clock
+    important: true
+  - kanji: 二年生
+    kana: にねんせい
+    meaning: second-year student
+    important: false
+  - kanji: 二つ
+    kana: ふたつ
+    meaning: two things
+    important: false
+  - kanji: 二日間
+    kana: ふつかかん
+    meaning: two days
+    important: false
 - kanji: 三
   meaning: three
   onyomi:
@@ -23,6 +65,27 @@
     important: true
   kunyomi:
   - reading: みっ
+    important: false
+  vocabulary:
+  - kanji: 三
+    kana: さん
+    meaning: three
+    important: true
+  - kanji: 三時
+    kana: さんじ
+    meaning: three o'clock
+    important: true
+  - kanji: 三年生
+    kana: さんねんせい
+    meaning: third-year student
+    important: false
+  - kanji: 三月
+    kana: さんがつ
+    meaning: March
+    important: false
+  - kanji: 三つ
+    kana: みっつ
+    meaning: three things
     important: false
 - kanji: 四
   meaning: four
@@ -36,6 +99,27 @@
     important: true
   - reading: よっ
     important: false
+  vocabulary:
+  - kanji: 四
+    kana: よん
+    meaning: four
+    important: true
+  - kanji: 四時
+    kana: よじ
+    meaning: four o'clock
+    important: true
+  - kanji: 四年生
+    kana: よねんせい
+    meaning: fourth-year student
+    important: false
+  - kanji: 四月
+    kana: しがつ
+    meaning: April
+    important: false
+  - kanji: 四つ
+    kana: よっつ
+    meaning: four things
+    important: false
 - kanji: 五
   meaning: five
   onyomi:
@@ -43,6 +127,27 @@
     important: true
   kunyomi:
   - reading: いつ
+    important: false
+  vocabulary:
+  - kanji: 五
+    kana: ご
+    meaning: five
+    important: true
+  - kanji: 五時
+    kana: ごじ
+    meaning: five o'clock
+    important: true
+  - kanji: 五月
+    kana: ごがつ
+    meaning: May
+    important: false
+  - kanji: 五歳
+    kana: ごさい
+    meaning: five years old
+    important: false
+  - kanji: 五つ
+    kana: いつつ
+    meaning: five things
     important: false
 - kanji: 六
   meaning: six
@@ -54,6 +159,27 @@
   kunyomi:
   - reading: むっ
     important: false
+  vocabulary:
+  - kanji: 六
+    kana: ろく
+    meaning: six
+    important: true
+  - kanji: 六時
+    kana: ろくじ
+    meaning: six o'clock
+    important: true
+  - kanji: 六百
+    kana: ろっぴゃく
+    meaning: six hundred
+    important: true
+  - kanji: 六分
+    kana: ろっぷん
+    meaning: six minutes
+    important: false
+  - kanji: 六つ
+    kana: むっつ
+    meaning: six
+    important: false
 - kanji: 七
   meaning: seven
   onyomi:
@@ -62,6 +188,27 @@
   kunyomi:
   - reading: なな
     important: true
+  vocabulary:
+  - kanji: 七
+    kana: なな
+    meaning: seven
+    important: true
+  - kanji: 七時
+    kana: しちじ
+    meaning: seven o'clock
+    important: true
+  - kanji: 七月
+    kana: しちがつ
+    meaning: July
+    important: false
+  - kanji: 七つ
+    kana: ななつ
+    meaning: seven things
+    important: false
+  - kanji: 七人
+    kana: ななにん
+    meaning: seven people
+    important: false
 - kanji: 八
   meaning: eight
   onyomi:
@@ -72,6 +219,27 @@
   kunyomi:
   - reading: やっ
     important: false
+  vocabulary:
+  - kanji: 八
+    kana: はち
+    meaning: eight
+    important: true
+  - kanji: 八時
+    kana: はちじ
+    meaning: eight o'clock
+    important: true
+  - kanji: 八百
+    kana: はっぴゃく
+    meaning: eight hundred
+    important: true
+  - kanji: 八歳
+    kana: はっさい
+    meaning: eight years old
+    important: false
+  - kanji: 八つ
+    kana: やっつ
+    meaning: eight things
+    important: false
 - kanji: 九
   meaning: nine
   onyomi:
@@ -81,6 +249,27 @@
     important: true
   kunyomi:
   - reading: ここの
+    important: false
+  vocabulary:
+  - kanji: 九
+    kana: きゅう
+    meaning: nine
+    important: true
+  - kanji: 九時
+    kana: きじ
+    meaning: nine o'clock
+    important: true
+  - kanji: 九月
+    kana: くがつ
+    meaning: September
+    important: false
+  - kanji: 九歳
+    kana: きゅうさい
+    meaning: nine years old
+    important: false
+  - kanji: 九つ
+    kana: ここのつ
+    meaning: nine things
     important: false
 - kanji: 十
   meaning: ten
@@ -94,6 +283,28 @@
   kunyomi:
   - reading: とお
     important: false
+  vocabulary:
+  - kanji: 十
+    kana: じゅう
+    meaning: ten
+    important: true
+  - kanji: 十時
+    kana: じゅうじ
+    meaning: ten o'clock
+    important: true
+  - kanji: 十月
+    kana: じゅうがつ
+    meaning: October
+    important: false
+  - kanji: 十歳
+    kana: じゅっさい／じっさい
+    meaning: ten years old
+    important: false
+  - kanji: 十
+    kana: とお
+    meaning: ten
+    important: false
+    ignore: true
 - kanji: 百
   meaning: hundred
   onyomi:
@@ -106,6 +317,23 @@
   kunyomi:
   - reading: ''
     important: false
+  vocabulary:
+  - kanji: 百
+    kana: ひゃく
+    meaning: hundred
+    important: true
+  - kanji: 三百
+    kana: さんびゃく
+    meaning: three hundred
+    important: true
+  - kanji: 六百
+    kana: ろっぴゃく
+    meaning: six hundred
+    important: true
+  - kanji: 八百
+    kana: はっぴゃく
+    meaning: eight hundred
+    important: true
 - kanji: 千
   meaning: thousand
   onyomi:
@@ -116,6 +344,23 @@
   kunyomi:
   - reading: ''
     important: false
+  vocabulary:
+  - kanji: 千
+    kana: せん
+    meaning: thousand
+    important: true
+  - kanji: 三千
+    kana: さんぜん
+    meaning: three thousand
+    important: true
+  - kanji: 八千
+    kana: はっせん
+    meaning: eight thousand
+    important: true
+  - kanji: 千円
+    kana: せんえん
+    meaning: one thousand yen
+    important: true
 - kanji: 万
   meaning: ten thousand
   onyomi:
@@ -124,6 +369,19 @@
   kunyomi:
   - reading: ''
     important: false
+  vocabulary:
+  - kanji: 一万
+    kana: いちまん
+    meaning: ten thousand
+    important: true
+  - kanji: 十万
+    kana: じゅうまん
+    meaning: one hundred thousand
+    important: true
+  - kanji: 百万
+    kana: ひゃくまん
+    meaning: one million
+    important: true
 - kanji: 円
   meaning: yen; circle
   onyomi:
@@ -132,6 +390,23 @@
   kunyomi:
   - reading: まる
     important: false
+  vocabulary:
+  - kanji: 百円
+    kana: ひゃくえん
+    meaning: one hundred yen
+    important: true
+  - kanji: 円
+    kana: えん
+    meaning: circle
+    important: false
+  - kanji: 円高
+    kana: えんだか
+    meaning: strong yen
+    important: false
+  - kanji: 円い
+    kana: まるい
+    meaning: round
+    important: false
 - kanji: 時
   meaning: time
   onyomi:
@@ -139,4 +414,25 @@
     important: true
   kunyomi:
   - reading: とき
+    important: false
+  vocabulary:
+  - kanji: 一時
+    kana: いちじ
+    meaning: one o'clock
+    important: true
+  - kanji: 時間
+    kana: じかん
+    meaning: time; ... hours
+    important: false
+  - kanji: 子どもの時
+    kana: こどものとき
+    meaning: in one's childhood
+    important: false
+  - kanji: 時々
+    kana: ときどき
+    meaning: sometimes
+    important: false
+  - kanji: 時計
+    kana: とけい
+    meaning: watch; clock
     important: false
