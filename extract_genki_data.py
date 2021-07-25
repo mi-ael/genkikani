@@ -1,4 +1,5 @@
 import json
+from typing import Dict, List
 import urllib.request
 import jaconv
 from ruamel.yaml import YAML
@@ -24,7 +25,7 @@ def invoke(action, **params):
         raise Exception(response['error'])
     return response['result']
 
-def extract_readings(reading) -> []:
+def extract_readings(reading) -> List[Dict[str, str]]:
     s = reading.split('；')
     readings = []
     for reading in s:

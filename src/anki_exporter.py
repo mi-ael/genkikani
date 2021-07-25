@@ -21,11 +21,25 @@ styling="""
  filter: invert(100%);
 }
 
-.kanji {
+.radical {
  font-family: "Hiragino Kaku Gothic Pro W3";
  font-size:180px;
  color: white;
  background-color:#0a9ce6;
+}
+
+.kanji {
+ font-family: "Hiragino Kaku Gothic Pro W3";
+ font-size:180px;
+ color: white;
+ background-color:#b8046c;
+}
+
+.vocab {
+ font-family: "Hiragino Kaku Gothic Pro W3";
+ font-size:180px;
+ color: white;
+ background-color:#a900fd;
 }
 
 .hiragana {
@@ -34,7 +48,7 @@ styling="""
 }
 
 .text {
- font-family: "Ubuntu Light", "HelveticaNeueLT Std Lt";
+ font-family: "Roboto", "HelveticaNeueLT Std Lt";
  font-style: "italics";
 }
 
@@ -52,7 +66,7 @@ styling="""
 """
 
 radical_backside="""
-<div class="kanji">{{word}}{{image}}</div>
+<div class="kanji">{{word}}</div>
 
 <div class="quest"><b>Radical</b></div>
 """
@@ -79,28 +93,71 @@ kanji_frontside="""
 {{FrontSide}}
 
 <br>
-<span class="text"><u><b>Meaning</b></u></span><br><br>
-<font size="50px"><span class="text"><font color="#0a9ce6">{{meanings}}</font></span></font>
-
-<span class="text"><u><b>On'yomi</b></u></span><br><br>
-<font size="50px"><span class="text"><font color="#0a9ce6">{{readings_on}}</font></span></font>
-
-<span class="text"><u><b>Kun'yomi</b></u></span><br><br>
-<font size="50px"><span class="text"><font color="#0a9ce6">{{readings_kun}}</font></span></font>
-
-<span class="text"><b>Radicals:</b></span> <font color="#0a9ce6"><span class="hiragana"><b>{{radicals}}</b></span></font>&nbsp;<span class="text">({{radicals_names}})</span>
-<span class="text"><b>simmilar looking Kanji:</b></span> <font color="#0a9ce6"><span class="hiragana"><b>{{simmilar_kanji}}</b></span></font>&nbsp;<span class="text">({{simmilar_kanji_names}})</span>
-
-<span class="text"><u><b>Meaning Mnemonic</b></u></span><br><br>
-<span class="text"><font color="#0a9ce6">{{meaning_mnemonic}}</font></span>
+<span class="text"><u><b>Meaning</b></u></span><br>
+<font size="50px"><span class="text"><font color="#b8046c">{{meanings}}</font></span></font>
 <br>
-<span class="text"><font color="#0a9ce6">{{meaning_hint}}</font></span>
-
-<span class="text"><u><b>Reading Mnemonic</b></u></span><br><br>
-<span class="text"><font color="#0a9ce6">{{reading_mnemonic}}</font></span>
 <br>
-<span class="text"><font color="#0a9ce6">{{reading_hint}}</font></span>
+<span class="text"><u><b>On'yomi</b></u></span><br>
+<font size="50px"><span class="text"><font color="#b8046c">{{readings_on}}</font></span></font>
+<br>
+<br>
+<span class="text"><u><b>Kun'yomi</b></u></span><br>
+<font size="50px"><span class="text"><font color="#b8046c">{{readings_kun}}</font></span></font>
+<br>
+<br>
+<span class="text"><b>Radicals:</b></span> <font color="#b8046c"><span class="hiragana"><b>{{radicals}}</b></span></font>&nbsp;<span class="text">({{radicals_names}})</span>
+<br>
+{{#simmilar_kanji}}
+<br>
+<span class="text"><b>simmilar looking Kanji:</b></span> <font color="#b8046c"><span class="hiragana"><b>{{simmilar_kanji}}</b></span></font>&nbsp;<span class="text">({{simmilar_kanji_names}})</span>
+<br>
+{{/simmilar_kanji}}
+<br>
+<span class="text"><u><b>Meaning Mnemonic</b></u></span><br>
+<span class="text">{{meaning_mnemonic}}</span>
+<br>
+<br>
+<span class="text">{{meaning_hint}}</span>
+<br>
+<br>
+<span class="text"><u><b>Reading Mnemonic</b></u></span><br>
+<span class="text">{{reading_mnemonic}}</span>
+<br>
+<br>
+<span class="text">{{reading_hint}}</span>
 
+"""
+
+
+vocab_backside="""
+<div class="vocab">{{word}}</div>
+
+<div class="quest"><b>Vocabulary</b></div>
+"""
+# TODO: sound does not exist case
+vocab_frontside="""
+{{FrontSide}}
+
+<br>
+<span class="text"><u><b>Meaning</b></u></span><br>
+<font size="50px"><span class="text"><font color="#b8046c">{{meanings}}</font></span></font>
+<br>
+<br>
+<span class="text"><u><b>On'yomi</b></u></span><br>
+<font size="50px"><span class="text"><font color="#b8046c">{{readings}}</font></span></font>
+<br>
+<br>
+<span class="text"><b>Kanjis:</b></span> <font color="#b8046c"><span class="hiragana"><b>{{kanjis}}</b></span></font>&nbsp;<span class="text">({{kanjis_names}})</span>
+<br>
+<br>
+<span class="text"><u><b>Meaning Mnemonic</b></u></span><br>
+<span class="text">{{meaning_mnemonic}}</span>
+<br>
+<br>
+<span class="text"><u><b>Reading Mnemonic</b></u></span><br>
+<span class="text">{{reading_mnemonic}}</span>
+<br>
+{{sound}}
 """
 
 class GenkiNoteRadical(genanki.Note):
@@ -112,6 +169,34 @@ class GenkiNoteKanji(genanki.Note):
   @property
   def guid(self):
       return genanki.guid_for(self.fields[12]) # uid
+
+class GenkiNoteVocab(genanki.Note):
+  @property
+  def guid(self):
+      return genanki.guid_for(self.fields[8]) # uid
+
+def gen_vocab_deck(deck, deckpath: str, model: genanki.Model, uuid:int, sounds:List[str]) -> genanki.Deck:
+  full_name = f'{deckpath}'
+  anki_deck = genanki.Deck(uuid, full_name)
+  for c in deck:
+    note = GenkiNoteVocab(
+          model=model,
+          fields=[
+              ", ".join(c['meanings']),
+              c['word'], 
+              ", ".join(c['readings']),
+              c['meaning_mnemonic'],
+              c['reading_mnemonic'],
+              c['kanjis'],
+              c['kanjis_names'],
+              f"[sound:{c['sound']}]",
+              f'{full_name}::{", ".join(c["meanings"])}', 
+          ],
+          )
+    sounds.append(c['sound'])
+    anki_deck.add_note(note)
+  return anki_deck
+
 
 def gen_kanji_deck(deck, deckpath: str, model: genanki.Model, uuid:int) -> genanki.Deck:
   full_name = f'{deckpath}'
@@ -146,7 +231,8 @@ def gen_radical_deck(deck, deckpath: str, model: genanki.Model, uuid:int) -> gen
           model=model,
           fields=[
               ", ".join(c['meanings']),
-              c['word'] if c['word'] is not None else "<img src=\"{c['image_filename'] if c['image_filename'] is not None else ''}\">",
+              c['word'] if c['word'] is not None else "",
+              #c['image_filename'] if c['image_filename'] is not None else '',
               c['meaning_mnemonic'],
               f'{full_name}::{", ".join(c["meanings"])}', 
           ],
@@ -161,6 +247,7 @@ def export_to_anki(decks: List, images: List):
       fields=[
           {'name': 'meanings'},
           {'name': 'word'},
+          #{'name': 'image'},
           {'name': 'meaning_mnemonic'},
           {'name': 'uuid'},
       ],
@@ -185,7 +272,7 @@ def export_to_anki(decks: List, images: List):
           {'name': 'meaning_hint'},
           {'name': 'reading_mnemonic'},
           {'name': 'reading_hint'},
-          {'name': 'radicals'},
+          {'name': 'radicals'},# todo: fix color of wanikani radicals
           {'name': 'radicals_names'},
           {'name': 'simmilar_kanji'},
           {'name': 'simmilar_kanji_names'},
@@ -196,6 +283,29 @@ def export_to_anki(decks: List, images: List):
           'name': 'Recognition',
           'qfmt': kanji_backside,
           'afmt': kanji_frontside,
+          },
+      ],
+      css=styling
+      )
+  anki_model_vocabulary = genanki.Model(
+      1561628562,
+      'Genkikani Model',
+      fields=[
+          {'name': 'meanings'},
+          {'name': 'word'},
+          {'name': 'readings'},
+          {'name': 'meaning_mnemonic'},
+          {'name': 'reading_mnemonic'},
+          {'name': 'kanjis'},# todo: fix color of wanikani radicals
+          {'name': 'kanjis_names'},
+          {'name': 'sound'},
+          {'name': 'uuid'},
+      ],
+      templates=[
+          {
+          'name': 'Recognition',
+          'qfmt': vocab_backside,
+          'afmt': vocab_frontside,
           },
       ],
       css=styling
@@ -215,10 +325,18 @@ def export_to_anki(decks: List, images: List):
     kanji_deck = gen_kanji_deck(lection['kanjis'], f'{deck_name}::{lection["name"]}::1 Kanjis', anki_model_kanjis, start_uuid + i*10 + 1)
     anki_decks.append(kanji_deck)
 
+    # vocabulary important
+    vocab_deck_important = gen_vocab_deck(lection['vocabulary_important'], f'{deck_name}::{lection["name"]}::2 Vocabulary Important', anki_model_vocabulary, start_uuid + i*10 + 2, sound_files)
+    anki_decks.append(vocab_deck_important)
+
+    # vocabulary unimportant
+    vocab_deck_unimportant = gen_vocab_deck(lection['vocabulary_unimportant'], f'{deck_name}::{lection["name"]}::3 Vocabulary Unimportant', anki_model_vocabulary, start_uuid + i*10 + 3, sound_files)
+    anki_decks.append(vocab_deck_unimportant)
   
   anki_package = genanki.Package(anki_decks)
 
   media_files = [f'data/wanikani/images/{image}' for image in image_files]
+  media_files.extend([f'data/wanikani/sound/{sound}' for sound in sound_files])
   anki_package.media_files = media_files
 
   anki_package.write_to_file('wanigenki.apkg')
