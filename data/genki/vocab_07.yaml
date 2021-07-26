@@ -1,0 +1,215 @@
+# tokyo ommitted
+- kanji: 京子
+  kana: きょうこ
+  meaning: Kyoko
+  important: true
+- kanji: 京都
+  kana: きょうと
+  meaning: Kyoto
+  important: false
+- kanji: 上京する
+  kana: じょうきょうする
+  meaning: to go to the capital
+  important: false
+
+- kanji: 子ども
+  kana: こども
+  meaning: child
+  important: true
+# girl
+# boy
+- kanji: 女子学生
+  kana: じょしがくせい
+  meaning: female student
+  important: false
+
+- kanji: 小さい
+  kana: ちいさい
+  meaning: small
+  important: true
+- kanji: 小学校
+  kana: しょうがっこう
+  meaning: elementary school
+  important: false
+- kanji: 小学生
+  kana: しょうがくせい
+  meaning: elementary school student
+  important: false
+
+- kanji: 合う
+  kana: あう
+  meaning: to meet
+  important: true
+- kanji: 会社
+  kana: かいしゃ
+  meaning: company
+  important: true
+- kanji: 会社員
+  kana: かいしゃいん
+  meaning: office worker
+  important: false
+- kanji: 神社
+  kana: じんじゃ
+  meaning: shrine
+  important: false
+- kanji: 社会
+  kana: しゃかい
+  meaning: society
+  important: false
+- kanji: 入社
+  kana: にゅうしゃ
+  meaning: entry to a company
+  important: false
+
+- kanji: 父
+  kana: ちち
+  meaning: father
+  important: true
+- kanji: お父さん
+  kana: おとうさん
+  meaning: father
+  important: true
+- kanji: 父母
+  kana: ふぼ
+  meaning: father and mother
+  important: false
+- kanji: 祖父
+  kana: そふ
+  meaning: grandfather
+  important: false
+
+- kanji: 母
+  kana: はは
+  meaning: mother
+  important: true
+- kanji: お母さん
+  kana: おかあさん
+  meaning: mother
+  important: true
+- kanji: 母語
+  kana: ぼご
+  meaning: mother tongue
+  important: false
+- kanji: 祖母
+  kana: そぼ
+  meaning: grandmother
+  important: false
+
+- kanji: 高い
+  kana: たかい
+  meaning: expensive; high
+  important: true
+- kanji: 高校
+  kana: こうこう
+  meaning: high school
+  important: true
+- kanji: 高校生
+  kana: こうこうせい
+  meaning: high school student
+  important: true
+- kanji: 最高
+  kana: さいこう
+  meaning: the best
+  important: false
+
+- kanji: 学校
+  kana: がっこう
+  meaning: school
+  important: true
+- kanji: 高校
+  kana: こうこう
+  meaning: high school
+  important: true
+- kanji: 高校生
+  kana: こうこうせい
+  meaning: high school student
+  important: true
+- kanji: 中学校
+  kana: ちゅうがっこう
+  meaning: junior high school
+  important: false
+
+- kanji: 毎日
+  kana: まいにち
+  meaning: every day
+  important: true
+- kanji: 毎週
+  kana: まいしゅう
+  meaning: every week
+  important: false
+- kanji: 毎晩
+  kana: まいばん
+  meaning: every night
+  important: false
+- kanji: 毎年
+  kana: まいねん／まいとし
+  meaning: every year
+  important: false
+
+- kanji: 日本語
+  kana: にほんご
+  meaning: Japanese language
+  important: true
+- kanji: 英語
+  kana: えいご
+  meaning: English language
+  important: false
+- kanji: 敬語
+  kana: けいご
+  meaning: honorific expressions
+  important: false
+
+- kanji: 文学
+  kana: ぶんがく
+  meaning: literature
+  important: true
+- kanji: 作文
+  kana: さくぶん
+  meaning: composition
+  important: false
+- kanji: 文字
+  kana: もじ
+  meaning: letter; character
+  important: false
+- kanji: 文化
+  kana: ぶんか
+  meaning: culture
+  important: false
+- kanji: 文法
+  kana: ぶんぽう
+  meaning: grammar
+  important: false
+
+- kanji: 帰る
+  kana: かえる
+  meaning: to return
+  important: true
+- kanji: 帰国
+  kana: きこく
+  meaning: going home
+  important: false
+- kanji: 帰宅
+  kana: きたく
+  meaning: returning home
+  important: false
+- kanji: 帰り
+  kana: かえり
+  meaning: return
+  important: false
+
+- kanji: 入る
+  kana: はいる
+  meaning: to enter
+  important: true
+- kanji: 入り口
+  kana: いりぐち
+  meaning: entrance
+  important: false
+- kanji: 入れる
+  kana: いれる
+  meaning: to put something in
+  important: false
+- kanji: 輸入
+  kana: ゆにゅう
+  meaning: import
+  important: false

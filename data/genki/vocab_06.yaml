@@ -1,0 +1,282 @@
+- kanji: 東
+  kana: ひがし
+  meaning: east
+  important: true
+- kanji: 東口
+  kana: ひがしぐち
+  meaning: east exit
+  important: true
+- kanji: 東京
+  kana: とうきょう
+  meaning: Tokyo
+  important: false
+- kanji: 関東
+  kana: かんとう
+  meaning: Kanto area
+  important: false
+- kanji: 東洋
+  kana: とうよう
+  meaning: the East
+  important: false
+
+- kanji: 西
+  kana: にし
+  meaning: west
+  important: true
+- kanji: 西口
+  kana: にしぐち
+  meaning: west exit
+  important: false
+- kanji: 北西
+  kana: ほくせい
+  meaning: northwest
+  important: false
+- kanji: 関西
+  kana: かんさい
+  meaning: Kansai area
+  important: false
+- kanji: 西洋
+  kana: せいよう
+  meaning: the West
+  important: false
+
+- kanji: 南
+  kana: みなみ
+  meaning: south
+  important: true
+- kanji: 南口
+  kana: みなみぐち
+  meaning: south exit
+  important: true
+- kanji: 南東
+  kana: なんとう
+  meaning: southeast
+  important: false
+- kanji: 南極
+  kana: なんきょく
+  meaning: Antarctica
+  important: false
+- kanji: 東南アジア
+  kana: とうなんアジア
+  meaning: Southeast Asia
+  important: false
+
+- kanji: 北
+  kana: きた
+  meaning: north
+  important: true
+- kanji: 北口
+  kana: きたぐち
+  meaning: north exit
+  important: true
+- kanji: 東北
+  kana: とうほく
+  meaning: Tohoku area
+  important: false
+- kanji: 北極
+  kana: ほっきょく
+  meaning: North Pole
+  important: false
+- kanji: 北海道
+  kana: こっかいどう
+  meaning: Hokkaido
+  important: false
+
+# north exit ommited
+- kanji: 口
+  kana: くち
+  meaning: mouth
+  important: false
+- kanji: 人口
+  kana: じんこう
+  meaning: population
+  important: false
+- kanji: 入り口
+  kana: いりぐち
+  meaning: entrance
+  important: false
+
+- kanji: 出る
+  kana: でる
+  meaning: to exit
+  important: true
+- kanji: 出口
+  kana: でぐち
+  meaning: exit
+  important: true
+- kanji: 出がける
+  kana: でがける
+  meaning: to go out
+  important: true
+- kanji: 出す
+  kana: だす
+  meaning: to take something out
+  important: false
+- kanji: 出席
+  kana: しゅっせき
+  meaning: attendance
+  important: false
+- kanji: 輸出
+  kana: ゆしゅつ
+  meaning: export
+  important: false
+
+- kanji: 右
+  kana: みぎ
+  meaning: right
+  important: true
+- kanji: 右折
+  kana: うせつ
+  meaning: right turn
+  important: false
+- kanji: 左右
+  kana: さゆう
+  meaning: right and left
+  important: false
+- kanji: 右手
+  kana: みぎて
+  meaning: right hand
+  important: false
+- kanji: 右側
+  kana: みぎがわ
+  meaning: right side
+  important: false
+
+- kanji: 左
+  kana: ひだり
+  meaning: left
+  important: true
+- kanji: 左折
+  kana: させつ
+  meaning: left turn
+  important: false
+- kanji: 左手
+  kana: ひだりて
+  meaning: left hand
+  important: false
+- kanji: 左利き
+  kana: ひだりきき
+  meaning: left-handed
+  important: false
+
+- kanji: 五分
+  kana: ごふん
+  meaning: five minutes
+  important: true
+- kanji: 十分
+  kana: じゅっぷん
+  meaning: ten minutes
+  important: true
+- kanji: 自分
+  kana: じぶん
+  meaning: oneself
+  important: false
+- kanji: 分ける
+  kana: わける
+  meaning: to divide
+  important: false
+
+- kanji: 先生
+  kana: せんせい
+  meaning: teacher
+  important: true
+- kanji: 先週
+  kana: せんしゅう
+  meaning: last week
+  important: false
+- kanji: 先に
+  kana: さきに
+  meaning: ahead
+  important: false
+- kanji: 先月
+  kana: せんげつ
+  meaning: last month
+  important: false
+- kanji: 先輩
+  kana: せんぱい
+  meaning: senior member
+  important: false
+
+- kanji: 学生
+  kana: がくせい
+  meaning: student
+  important: true
+- kanji: 生まれる
+  kana: うまれる
+  meaning: to be born
+  important: false
+- kanji: 一生に一度
+  kana: いっしょうにいちど
+  meaning: once in a life time
+  important: false
+
+- kanji: 大学生
+  kana: だいがくせい
+  meaning: college student
+  important: true
+- kanji: 大きい
+  kana: おおきい
+  meaning: big
+  important: true
+- kanji: 大変
+  kana: たいへん
+  meaning: tough
+  important: false
+- kanji: 大人
+  kana: おとな
+  meaning: adult
+  important: false
+- kanji: 大使館
+  kana: たいしかん
+  meaning: embassy
+  important: false
+
+- kanji: 大学
+  kana: だいがく
+  meaning: university
+  important: true
+# student ommited
+- kanji: 学校
+  kana: がっこう
+  meaning: school
+  important: false
+- kanji: 学ぶ
+  kana: まなび
+  meaning: to study
+  important: false
+- kanji: 学部
+  kana: がくう
+  meaning: department; faculty
+  important: false
+
+- kanji: 外国
+  kana: がいこく
+  meaning: foreign country
+  important: true
+- kanji: 外国人
+  kana: がいこくじん
+  meaning: foreigner
+  important: true
+- kanji: 外
+  kana: そと
+  meaning: outside
+  important: false
+- kanji: 海外
+  kana: かいがい
+  meaning: overseas
+  important: false
+
+# foreign country ommited
+# china ommited
+- kanji: 国
+  kana: くに
+  meaning: country
+  important: false
+- kanji: 韓国
+  kana: かんこく
+  meaning: South Korea
+  important: false
+- kanji: 国会
+  kana: こっかい
+  meaning: the Diet
+  important: false

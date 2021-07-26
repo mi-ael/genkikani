@@ -1,0 +1,214 @@
+# omitted office worker
+- kanji: 店員
+  kana: てんいん
+  meaning: store clerk
+  important: false
+- kanji: 会員
+  kana: かいいん
+  meaning: member
+  important: false
+- kanji: 駅員
+  kana: えきいん
+  meaning: station attendant
+  important: false
+
+- kanji: 新しい
+  kana: あたらしい
+  meaning: Bullet Train
+  important: true
+- kanji: 新聞
+  kana: しんぶん
+  meaning: newspaper
+  important: true
+- kanji: 新幹線
+  kana: しんかんせん
+  meaning: Bullet Train
+  important: false
+- kanji: 新鮮
+  kana: しんせん
+  meaning: fresh
+  important: false
+
+- kanji: 聞く
+  kana: きく
+  meaning: to listen
+  important: true
+# newspaper
+- kanji: 聞こえる
+  kana: きこえる
+  meaning: can be heard
+  important: false
+
+- kanji: 作る
+  kana: つくる
+  meaning: to make
+  important: true
+# composition omitted
+- kanji: 作品
+  kana: さくひん
+  meaning: artistic piece
+  important: false
+- kanji: 作者
+  kana: さくしゃ
+  meaning: author
+  important: false
+
+- kanji: 仕事
+  kana: しごと
+  meaning: job
+  important: true
+- kanji: 仕返し
+  kana: しかえし
+  meaning: revenge
+  important: false
+- kanji: 仕える
+  kana: つかえる
+  meaning: to serve; to work under
+  important: false
+
+# job omitted
+- kanji: 事
+  kana: こと
+  meaning: thing
+  important: false
+- kanji: 家事
+  kana: かじ
+  meaning: fire
+  important: false
+- kanji: 食事
+  kana: しょくじ
+  meaning: meal
+  important: false
+- kanji: 返事
+  kana: へんじ
+  meaning: reply
+  important: false
+
+- kanji: 電車
+  kana: でんしゃ
+  meaning: train
+  important: true
+- kanji: 電気
+  kana: でんき
+  meaning: electricity; light
+  important: true
+- kanji: 電話
+  kana: でんわ
+  meaning: telephone
+  important: false
+- kanji: 電池
+  kana: でんち
+  meaning: battery
+  important: false
+- kanji: 電子レンジ
+  kana: でんしレンジ
+  meaning: microwave oven
+  important: false
+
+- kanji: 車
+  kana: くるま
+  meaning: car
+  important: true
+# train omitted
+- kanji: 自転車
+  kana: じてんしゃ
+  meaning: bicycle
+  important: false
+- kanji: 車いす
+  kana: くるまいす
+  meaning: wheelchair
+  important: false
+- kanji: 駐車場
+  kana: ちゅうしゃじょう
+  meaning: parking lot
+  important: false
+
+- kanji: 休む
+  kana: やすむ
+  meaning: to be absent; to rest
+  important: true
+- kanji: 休み
+  kana: やすみ
+  meaning: holiday; absence
+  important: true
+- kanji: 休日
+  kana: きゅうじつ
+  meaning: holiday
+  important: false
+
+- kanji: 言う
+  kana: いう
+  meaning: to say
+  important: true
+- kanji: 言語学
+  kana: げんごがく
+  meaning: linguistics
+  important: false
+- kanji: 方言
+  kana: ほうげん
+  meaning: dialect
+  important: false
+- kanji: 言葉
+  kana: ことば
+  meaning: word; language
+  important: false
+
+- kanji: 読む
+  kana: よむ
+  meaning: to read
+  important: true
+- kanji: 読書
+  kana: どくしょ
+  meaning: reading books
+  important: false
+- kanji: 読み物
+  kana: よみもの
+  meaning: reading matter
+  important: false
+
+- kanji: 思う
+  kana: おもう
+  meaning: to think
+  important: true
+- kanji: 不思議
+  kana: ふしぎ
+  meaning: mysterious
+  important: false
+- kanji: 思い出す
+  kana: おもいだす
+  meaning: to recall; to remember
+  important: false
+
+- kanji: 次
+  kana: つぎ
+  meaning: next
+  important: true
+- kanji: 次女
+  kana: じじょ
+  meaning: second daughter
+  important: false
+- kanji: 目次
+  kana: もくじ
+  meaning: table of contents
+  important: false
+- kanji: 次回
+  kana: じかい
+  meaning: next time
+  important: false
+
+- kanji: 何
+  kana: なに
+  meaning: what
+  important: true
+- kanji: 何時
+  kana: なんじ
+  meaning: what time
+  important: true
+- kanji: 何人
+  kana: なんにん
+  meaning: how many people
+  important: true
+- kanji: 何か
+  kana: なにか
+  meaning: something
+  important: false

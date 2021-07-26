@@ -1,0 +1,204 @@
+- kanji: 山
+  kana: やま
+  meaning: mountain
+  important: true
+- kanji: 山川さん
+  kana: やまかわさん
+  meaning: Mr./Ms. Yamakawa
+  important: true
+- kanji: 富士山
+  kana: ふじさん
+  meaning: Mt. Fuji
+  important: false
+
+- kanji: 川
+  kana: かわ
+  meaning: river
+  important: true
+# Yamakawa omitted
+- kanji: 小川さん
+  kana: おがわさん
+  meaning: Mr./Ms. Ogawa
+  important: false
+
+- kanji: 元気
+  kana: げんき
+  meaning: fine
+  important: true
+- kanji: 天気
+  kana: てんき
+  meaning: weather
+  important: true
+- kanji: 電気
+  kana: でんき
+  meaning: electricity
+  important: false
+- kanji: 気持ち
+  kana: きもち
+  meaning: feeling
+  important: false
+- kanji: 人気
+  kana: にんき
+  meaning: popularity
+  important: false
+
+# weather ommited
+- kanji: 天国
+  kana: てんごく
+  meaning: heaven
+  important: false
+- kanji: 天皇
+  kana: てんのう
+  meaning: Japanese emperor
+  important: false
+- kanji: 天才
+  kana: てんさい
+  meaning: genius
+  important: false
+
+- kanji: 私
+  kana: わたし
+  meaning: I
+  important: true
+- kanji: 私立大学
+  kana: しりつだいがく
+  meaning: private university
+  important: false
+
+- kanji: 今
+  kana: いま
+  meaning: now
+  important: true
+- kanji: 今日
+  kana: きょう
+  meaning: today
+  important: true
+- kanji: 今晩
+  kana: こんばん
+  meaning: tonight
+  important: false
+- kanji: 今月
+  kana: こんげつ
+  meaning: this month
+  important: false
+- kanji: 今年
+  kana: ことし
+  meaning: this year
+  important: false
+
+- kanji: 田中さん
+  kana: たなかさん
+  meaning: Mr./Ms. Tanaka
+  important: true
+- kanji: 山田さん
+  kana: やまださん
+  meaning: Mr./Ms. Yamada
+  important: true
+- kanji: 田んぼ
+  kana: たんぼ
+  meaning: rice field
+  important: false
+
+- kanji: 女の人
+  kana: おんなのひと
+  meaning: woman
+  important: true
+- kanji: 女性
+  kana: じょせい
+  meaning: woman
+  important: false
+- kanji: 女の子
+  kana: おんなのこ
+  meaning: girl
+  important: false
+- kanji: 長女
+  kana: ちょうじょ
+  meaning: the eldest daughter
+  important: false
+
+- kanji: 男の人
+  kana: おとこのひと
+  meaning: man
+  important: true
+- kanji: 男性
+  kana: だんせい
+  meaning: man
+  important: false
+- kanji: 男の子
+  kana: おとこのこ
+  meaning: boy
+  important: false
+- kanji: 男子学生
+  kana: だんしがくせい
+  meaning: male student
+  important: false
+
+- kanji: 見る
+  kana: みる
+  meaning: to see
+  important: true
+- kanji: 見物
+  kana: けんぶつ
+  meaning: sightseeing
+  important: false
+- kanji: 花見
+  kana: はなみ
+  meaning: flower viewing
+  important: false
+- kanji: 意見
+  kana: いけん
+  meaning: opinion
+  important: false
+
+- kanji: 行く
+  kana: いく
+  meaning: to go
+  important: true
+- kanji: 銀行
+  kana: ぎんこう
+  meaning: bank
+  important: false
+- kanji: 一行目
+  kana: いちぎょうめ
+  meaning: first line
+  important: false
+- kanji: 旅行
+  kana: りょこう
+  meaning: travel
+  important: false
+
+- kanji: 食べる
+  kana: たべる
+  meaning: to eat
+  important: true
+- kanji: 食べ物
+  kana: たべもの
+  meaning: food
+  important: false
+- kanji: 食堂
+  kana: しょくどう
+  meaning: cafeteria
+  important: false
+- kanji: 食事
+  kana: しょくじ
+  meaning: meal
+  important: false
+- kanji: 朝食
+  kana: ちょうしょく
+  meaning: breakfast
+  important: false
+
+- kanji: 飲む
+  kana: のむ
+  meaning: to drink
+  important: true
+- kanji: 飲み物
+  kana: のみもの
+  meaning: drink
+  important: false
+- kanji: 飲酒運転
+  kana: いんしゅうんてん
+  meaning: drunken driving
+  important: false
+
+

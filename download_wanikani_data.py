@@ -5,7 +5,7 @@ import os
 import requests
 import sys
 
-audio_type = 'male' # or female
+audio_type = 'female' # or male
 
 def select_audio(audios):
     if len(audios) == 0:

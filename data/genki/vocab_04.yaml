@@ -1,0 +1,242 @@
+- kanji: 日本
+  kana: にほん
+  meaning: Japan
+  important: true
+- kanji: 日曜日
+  kana: にちようび
+  meaning: Sunday
+  important: true
+- kanji: 毎日
+  kana: まいにち
+  meaning: every day
+  important: false
+- kanji: 母の日
+  kana: ははのひ
+  meaning: Mother's Day
+  important: false
+- kanji: 日記
+  kana: にっき
+  meaning: diary
+  important: false
+- kanji: 三日
+  kana: みっか
+  meaning: three days
+  important: false
+
+- kanji: 本
+  kana: ほん
+  meaning: book
+  important: true
+# japan ommited
+- kanji: 日本語
+  kana: にほんご
+  meaning: Japanese language
+  important: false
+- kanji: 山本さん
+  kana: やまもとさん
+  meaning: Mr./Ms. Yamamoto
+  important: false
+
+- kanji: 日本人
+  kana: にほんじん
+  meaning: Japanese people
+  important: true
+- kanji: 一人で
+  kana: ひとりで
+  meaning: alone
+  important: true
+- kanji: この人
+  kana: このひと
+  meaning: this person
+  important: true
+- kanji: 三人
+  kana: さんにん
+  meaning: three people
+  important: false
+
+- kanji: 月曜日
+  kana: げつようび
+  meaning: Monday
+  important: true
+- kanji: 一月
+  kana: いちがつ
+  meaning: January
+  important: true
+- kanji: 月
+  kana: つき
+  meaning: moon
+  important: false
+- kanji: 今月
+  kana: こんげつ
+  meaning: this month
+  important: false
+- kanji: 一か月
+  kana: いっかげつ
+  meaning: one month
+  important: false
+
+- kanji: 火曜日
+  kana: かようび
+  meaning: Tuesday
+  important: true
+- kanji: 火
+  kana: ひ
+  meaning: fire
+  important: false
+- kanji: 火山
+  kana: かざん
+  meaning: volcano
+  important: false
+- kanji: 花火
+  kana: はなび
+  meaning: fireworks
+  important: false
+- kanji: 火星
+  kana: かせい
+  meaning: Mars
+  important: false
+
+- kanji: 水曜日
+  kana: すいようび
+  meaning: Wednesday
+  important: true
+- kanji: 水
+  kana: みず
+  meaning: water
+  important: true
+- kanji: 水泳
+  kana: すいえい
+  meaning: swimming
+  important: false
+- kanji: 水道
+  kana: すいどう
+  meaning: water supply
+  important: false
+- kanji: 水着
+  kana: みずぎ
+  meaning: bathing suit
+  important: false
+
+- kanji: 木曜日
+  kana: もくようび
+  meaning: Thursday
+  important: true
+- kanji: 木
+  kana: き
+  meaning: tree
+  important: false
+- kanji: 木村さん
+  kana: きむらさん
+  meaning: Mr./Ms. Kimura
+  important: false
+
+- kanji: 金曜日
+  kana: きんようび
+  meaning: Friday
+  important: true
+- kanji: お金
+  kana: おかね
+  meaning: Money
+  important: false
+- kanji: 料金
+  kana: きょうきん
+  meaning: charge
+  important: false
+- kanji: お金持ち
+  kana: おかねもち
+  meaning: rich person
+  important: false
+
+- kanji: 土曜日
+  kana: どようび
+  meaning: Saturday
+  important: true
+- kanji: 土
+  kana: つち
+  meaning: Soil
+  important: false
+- kanji: 土地
+  kana: とち
+  meaning: land
+  important: false
+- kanji: 粘土
+  kana: ねんど
+  meaning: clay
+  important: false
+
+- kanji: 日曜日
+  kana: にちようび
+  meaning: Sunday
+  important: true
+- kanji: 曜日
+  kana: ようび
+  meaning: day of the week
+  important: false
+
+- kanji: 上
+  kana: うえ
+  meaning: top; above
+  important: true
+- kanji: 上手
+  kana: じょうず
+  meaning: good at
+  important: false
+- kanji: 屋上
+  kana: おくじょう
+  meaning: rooftop
+  important: false
+- kanji: 上る
+  kana: のぼる
+  meaning: to go up
+  important: false
+
+- kanji: 下
+  kana: した
+  meaning: under
+  important: true
+- kanji: 地下鉄
+  kana: ちかてつ
+  meaning: subway
+  important: false
+- kanji: 下手
+  kana: へた
+  meaning: poor at
+  important: false
+- kanji: 下さい
+  kana: ください
+  meaning: Please give/do...
+  important: false
+
+- kanji: 中
+  kana: なか
+  meaning: inside
+  important: true
+- kanji: 中国
+  kana: ちゅうごく
+  meaning: China
+  important: false
+- kanji: 中学
+  kana: ちゅうがく
+  meaning: junior high school
+  important: false
+- kanji: 一年中
+  kana: いちねんじゅう
+  meaning: all year around
+  important: false
+
+- kanji: 三時半
+  kana: さんじはん
+  meaning: half past three
+  important: true
+- kanji: 半分
+  kana: はんぶん
+  meaning: half
+  important: false
+- kanji: 半年
+  kana: はんとし
+  meaning: half a year
+  important: false
+- kanji: 半額
+  kana: はんがく
+  meaning: half price
+  important: false

@@ -1,0 +1,86 @@
+- kanji: 午前
+  kana: ごぜん
+  meaning: A.M.
+  important: true
+- kanji: 午後
+  kana: ごご
+  meaning: P.M.; in the afternoon
+  important: true
+- kanji: 午前中
+  kana: ごぜんちゅう
+  meaning: in the morning
+  important: true
+- kanji: 正午
+  kana: しょうご
+  meaning: noon
+  important: false
+
+# P.M omitted
+- kanji: 〜の後
+  kana: 〜のあと
+  meaning: later
+  important: true
+- kanji: 後で
+  kana: あとで
+  meaning: later
+  important: true
+- kanji: 後ろ
+  kana: うしろ
+  meaning: back; behind
+  important: true
+- kanji: 最後に
+  kana: さいごに
+  meaning: lastly
+  important: false
+
+- kanji: 前
+  kana: まえ
+  meaning: before; front
+  important: true
+# A.M. skipped
+- kanji: 名前
+  kana: なまえ
+  meaning: name
+  important: true
+- kanji: 前売り
+  kana: まえうり
+  meaning: advanced scale
+  important: false
+
+# name skiped
+- kanji: 有名
+  kana: ゆうめい
+  meaning: famous
+  important: false
+- kanji: 名称
+  kana: めいし
+  meaning: name card
+  important: false
+- kanji: 氏名
+  kana: しめい
+  meaning: full name
+  important: false
+- kanji: 名字
+  kana: みょうじ
+  meaning: family name
+  important: false
+
+- kanji: 白い
+  kana: しろい
+  meaning: white
+  important: true
+- kanji: 白紙
+  kana: はくし
+  meaning: blank sheet
+  important: false
+- kanji: 白
+  kana: しろ
+  meaning: white color
+  important: false
+- kanji: 白鳥
+  kana: はくちょう
+  meaning: swan
+  important: false
+
+# 92
+
