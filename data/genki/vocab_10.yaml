@@ -1,0 +1,211 @@
+- kanji: 住む
+  kana: すむ
+  meaning: to live
+  important: true
+- kanji: 住所
+  kana: じゅうしょ
+  meaning: address
+  important: false
+- kanji: 移住する
+  kana: いじゅうする
+  meaning: to immigrate
+  important: false
+
+- kanji: お正月
+  kana: おしょうがつ
+  meaning: New Year
+  important: true
+- kanji: 正しい
+  kana: ただしい
+  meaning: right
+  important: false
+- kanji: 正午
+  kana: しょうご
+  meaning: noon
+  important: false
+- kanji: 正解
+  kana: せいかい
+  meaning: correct answer
+  important: false
+
+- kanji: 三年生
+  kana: せんねんせい
+  meaning: third-year student
+  important: true
+- kanji: 来年
+  kana: らいねん
+  meaning: next year
+  important: true
+- kanji: 今年
+  kana: ことし
+  meaning: this year
+  important: true
+- kanji: 年
+  kana: とし
+  meaning: year
+  important: true
+
+- kanji: 売る
+  kana: うる
+  meaning: to sell
+  important: true
+- kanji: 売店
+  kana: ばいてん
+  meaning: stand; stall
+  important: false
+- kanji: 自動販売機
+  kana: じどうはんばいき
+  meaning: vending machine
+  important: false
+
+- kanji: 買う
+  kana: かう
+  meaning: to buy
+  important: true
+- kanji: 買い物
+  kana: かいもの
+  meaning: shopping
+  important: false
+- kanji: 売買
+  kana: ばいばい
+  meaning: selling and buying
+  important: false
+
+- kanji: 町
+  kana: まち
+  meaning: town
+  important: true
+- kanji: 北山町
+  kana: きたやまちょう
+  meaning: Kitayama Town
+  important: false
+- kanji: 町長
+  kana: ちょうちょう
+  meaning: mayor of a town
+  important: false
+
+- kanji: 長い
+  kana: ながい
+  meaning: long
+  important: true
+- kanji: 長男
+  kana: ちょうなん
+  meaning: the eldest son
+  important: false
+- kanji: 社長
+  kana: しゃちょう
+  meaning: company president
+  important: false
+
+- kanji: 道
+  kana: みち
+  meaning: way; road
+  important: true
+- kanji: 書道
+  kana: しょどう
+  meaning: calligraphy
+  important: false
+- kanji: 柔道
+  kana: じゅうどう
+  meaning: judo
+  important: false
+- kanji: 北海道
+  kana: ほっかいどう
+  meaning: Hokkaido
+  important: false
+
+- kanji: 雪
+  kana: ゆき
+  meaning: snow
+  important: true
+- kanji: 新雪
+  kana: しんせつ
+  meaning: new snow
+  important: false
+- kanji: 雪だるま
+  kana: ゆきだるま
+  meaning: snowman
+  important: false
+
+- kanji: 立つ
+  kana: たつ
+  meaning: to stand
+  important: true
+- kanji: 国立大学
+  kana: こくりつだいがく
+  meaning: national university
+  important: false
+- kanji: 私立高校
+  kana: しりつこうこう
+  meaning: private high school
+  important: false
+
+- kanji: 自分
+  kana: じぶん
+  meaning: oneself
+  important: true
+- kanji: 自動車
+  kana: じどうしゃ
+  meaning: automobile
+  important: false
+- kanji: 自転車
+  kana: じてんしゃ
+  meaning: bicycle
+  important: false
+- kanji: 自由
+  kana: じゆう
+  meaning: freedom
+  important: false
+
+- kanji: 夜
+  kana: よる
+  meaning: night
+  important: true
+- kanji: 夜中
+  kana: よなか
+  meaning: middle of night
+  important: false
+- kanji: 今夜
+  kana: こんや
+  meaning: tonight
+  important: false
+- kanji: 夜明
+  kana: よあけ
+  meaning: dawn
+  important: false
+
+- kanji: 朝
+  kana: あさ
+  meaning: morning
+  important: true
+- kanji: 今朝
+  kana: けさ
+  meaning: this morning
+  important: true
+- kanji: 朝食
+  kana: ちょうしょく
+  meaning: breakfast
+  important: false
+- kanji: 毎朝
+  kana: まいあさ
+  meaning: every morning
+  important: false
+
+- kanji: 持つ
+  kana: もつ
+  meaning: to carry; to hold
+  important: true
+- kanji: 持ってくる
+  kana: もってくる
+  meaning: to bring
+  important: true
+- kanji: 所持品
+  kana: しょじひん
+  meaning: belongings
+  important: false
+- kanji: 気持ち
+  kana: きもち
+  meaning: feeling
+  important: false
+
+

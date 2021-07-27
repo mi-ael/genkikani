@@ -1,0 +1,280 @@
+- kanji: 手紙
+  kana: てがみ
+  meaning: letter
+  important: true
+- kanji: 歌手
+  kana: かしゅ
+  meaning: singer
+  important: true
+- kanji: 手
+  kana: て
+  meaning: hand
+  important: false
+- kanji: 手話
+  kana: しゅわ
+  meaning: sign language
+  important: false
+- kanji: 上手
+  kana: じょうず
+  meaning: good at
+  important: false
+
+# letter omitted
+- kanji: 紙
+  kana: かみ
+  meaning: paper
+  important: false
+- kanji: 和紙
+  kana: わし
+  meaning: Japanese paper
+  important: false
+- kanji: 表紙
+  kana: ひょうし
+  meaning: cover page
+  important: false
+- kanji: 折り紙
+  kana: おりがみ
+  meaning: origami
+  important: false
+
+- kanji: 好き
+  kana: すき
+  meaning: to like
+  important: true
+- kanji: 大好き
+  kana: だいすき
+  meaning: to love
+  important: true
+- kanji: 好意
+  kana: こうい
+  meaning: goodwill
+  important: false
+- kanji: 好み
+  kana: このみ
+  meaning: liking; taste
+  important: false
+- kanji: 好物
+  kana: こうぶつ
+  meaning: favorite food
+  important: false
+
+- kanji: 近く
+  kana: ちかく
+  meaning: near; nearby
+  important: true
+- kanji: 近所
+  kana: きんじょ
+  meaning: neighborhood
+  important: true
+- kanji: 最近
+  kana: さいきん
+  meaning: recently
+  important: false
+- kanji: 中近東
+  kana: ちゅうきんとう
+  meaning: the Middle and Near East
+  important: false
+
+- kanji: 明るい
+  kana: あかるい
+  meaning: cheerful; bright
+  important: true
+- kanji: 明日
+  kana: あした
+  meaning: tomorrow
+  important: false
+- kanji: 説明
+  kana: せつめい
+  meaning: explanation
+  important: false
+- kanji: 発明
+  kana: はつめい
+  meaning: invention
+  important: false
+- kanji: 文明
+  kana: ぶんめい
+  meaning: civilization
+  important: false
+
+- kanji: 病院
+  kana: びょういん
+  meaning: hospital
+  important: true
+- kanji: 病気
+  kana: びょうき
+  meaning: illness
+  important: true
+- kanji: 重病
+  kana: じゅうびょう
+  meaning: serious illness
+  important: false
+- kanji: 急病
+  kana: きゅうびょう
+  meaning: sudden illness
+  important: false
+
+# hospital omitted
+- kanji: 大学院
+  kana: だいがくいん
+  meaning: graduate school
+  important: false
+- kanji: 美容院
+  kana: びよういん
+  meaning: beauty parlor
+  important: false
+
+- kanji: 映画
+  kana: えいが
+  meaning: movie
+  important: true
+- kanji: 映画館
+  kana: えいがかん
+  meaning: movie theater
+  important: false
+- kanji: 映る
+  kana: うつる
+  meaning: to be reflected
+  important: false
+
+# movie omitted
+- kanji: 画家
+  kana: がか
+  meaning: painter
+  important: false
+- kanji: 計画
+  kana: けいかく
+  meaning: plan
+  important: false
+- kanji: 漫画
+  kana: まんが
+  meaning: comic
+  important: false
+
+- kanji: 歌う
+  kana: うたう
+  meaning: to sing
+  important: true
+- kanji: 歌
+  kana: うた
+  meaning: song
+  important: true
+- kanji: 歌手
+  kana: かしゅ
+  meaning: singer
+  important: true
+- kanji: 国歌
+  kana: こっか
+  meaning: national anthem
+  important: false
+- kanji: 歌舞伎
+  kana: かぶき
+  meaning: Kabuki
+  important: false
+- kanji: 歌詞
+  kana: かし
+  meaning: lyrics
+  important: false
+
+- kanji: 川口市
+  kana: かわぐちし
+  meaning: Kawaguchi City
+  important: true
+- kanji: 市役所
+  kana: しやくしょ
+  meaning: city hall
+  important: false
+- kanji: しちょう
+  kana: しちょう
+  meaning: mayor
+  important: false
+- kanji: 市場
+  kana: いちば
+  meaning: market
+  important: false
+
+# added 所
+- kanji: 所
+  kana: ところ
+  meaning: place
+  important: true
+- kanji: いろいろな所
+  kana: いろいろなところ
+  meaning: various places
+  important: true
+- kanji: 近所
+  kana: きんじょ
+  meaning: neighborhood
+  important: true
+- kanji: 台所
+  kana: だいどころ
+  meaning: kitchen
+  important: false
+- kanji: 住所
+  kana: じゅうしょ
+  meaning: address
+  important: false
+
+- kanji: 辺境する
+  kana: べんきょうする
+  meaning: to study
+  important: true
+- kanji: 勉める
+  kana: つとめる
+  meaning: to try hard
+  important: false
+- kanji: 勤勉
+  kana: きんべん
+  meaning: diligent
+  important: false
+
+# study omitted
+- kanji: 強い
+  kana: つよい
+  meaning: strong
+  important: false
+- kanji: 強情
+  kana: ごうじょう
+  meaning: obstinate
+  important: false
+- kanji: 強盗
+  kana: ごうとう
+  meaning: robbery
+  important: false
+- kanji: 強力
+  kana: きょうりょく
+  meaning: powerful
+  important: false
+
+- kanji: 有名
+  kana: ゆうめい
+  meaning: famous
+  important: true
+- kanji: 有料
+  kana: ゆうりょう
+  meaning: toll; fee
+  important: false
+- kanji: 有る
+  kana: ある
+  meaning: to exist
+  important: false
+- kanji: 有能
+  kana: ゆうのう
+  meaning: talented
+  important: false
+
+- kanji: 旅行
+  kana: りょこう
+  meaning: travel
+  important: true
+- kanji: 旅館
+  kana: りょかん
+  meaning: Japanese inn
+  important: false
+- kanji: 一人旅
+  kana: ひとりたび
+  meaning: traveling alone
+  important: false
+- kanji: 旅券
+  kana: りょけん
+  meaning: passport
+  important: false

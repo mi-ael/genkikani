@@ -1,0 +1,241 @@
+- kanji: 昔
+  kana: むかし
+  meaning: old times
+  important: true
+- kanji: 昔話
+  kana: むかしばなし
+  meaning: old tale
+  important: false
+- kanji: 大昔
+  kana: おおむかし
+  meaning: ancient times
+  important: false
+
+- kanji: 昔々
+  kana: むかしむかし
+  meaning: once upon a time
+  important: true
+- kanji: 人々
+  kana: ひとびと
+  meaning: people
+  important: true
+- kanji: 時々
+  kana: ときどき
+  meaning: sometimes
+  important: false
+- kanji: 色々
+  kana: いろいろ
+  meaning: various
+  important: false
+
+- kanji: 神さま
+  kana: かみさま
+  meaning: God
+  important: true
+  wanikani_kanji: 神様
+  note: 神さま is usually written with the first part kanji and the second part hiragana.
+- kanji: 神社
+  kana: じんじゃ
+  meaning: shrine
+  important: true
+- kanji: 神道
+  kana: しんとう
+  meaning: Shinto
+  important: false
+- kanji: 神戸市
+  kana: こうべし
+  meaning: Kobe City
+  important: false
+
+- kanji: 早い
+  kana: はやい
+  meaning: early
+  important: true
+- kanji: 早起きする
+  kana: はやおきする
+  meaning: to get up early
+  important: false
+- kanji: 早朝
+  kana: そうちょう
+  meaning: early morning
+  important: false
+
+- kanji: 起きる
+  kana: おきる
+  meaning: to get up
+  important: true
+- kanji: 起こす
+  kana: おこす
+  meaning: to wake someone up
+  important: false
+- kanji: 再起動
+  kana: さいきどう
+  meaning: reboot
+  important: false
+
+- kanji: 牛
+  kana: うし
+  meaning: cow
+  important: true
+- kanji: 牛乳
+  kana: ぎゅうにゅう
+  meaning: milk
+  important: false
+- kanji: 牛肉
+  kana: ぎゅうにく
+  meaning: beef
+  important: false
+- kanji: 子牛
+  kana: こうし
+  meaning: calf; veal
+  important: false
+
+- kanji: 使う
+  kana: つかう
+  meaning: to use
+  important: true
+- kanji: 大使
+  kana: たいし
+  meaning: ambassador
+  important: false
+- kanji: 使用中
+  kana: しようちゅう
+  meaning: "Occupied"
+  important: false
+- kanji: お使い
+  kana: おつかい
+  meaning: errand
+  important: false
+
+- kanji: 働く
+  kana: はたらく
+  meaning: to work
+  important: true
+- kanji: 共働き
+  kana: ともばたらき
+  meaning: both husband and wife working
+  important: false
+- kanji: 労働
+  kana: ろうどう
+  meaning: labor
+  important: false
+
+# 連れる added
+- kanji: 連れる
+  kana: つれる
+  meaning: to take along
+  important: false
+- kanji: 連れて帰る
+  kana: つれてかえる
+  meaning: to bring (a person) back
+  important: true
+- kanji: 国連
+  kana: こくれん
+  meaning: United Nations
+  important: false
+- kanji: 連休
+  kana: れんきゅう
+  meaning: consecutive holidays
+  important: false
+
+- kanji: 別れる
+  kana: わかれる
+  meaning: to seperate
+  important: true
+- kanji: 別に
+  kana: べつに
+  meaning: not in particular
+  important: true
+- kanji: 特別
+  kana: とくべつ
+  meaning: special
+  important: false
+- kanji: 差別
+  kana: さべつ
+  meaning: discrimination
+  important: false
+- kanji: 別々
+  kana: べつべつ
+  meaning: separately
+  important: false
+
+# generalisation
+- kanji: 〜度
+  kana: ど
+  meaning: degrees; times
+  important: true
+- kanji: 今度
+  kana: こんど
+  meaning: near future
+  important: true
+- kanji: 温度
+  kana: おんど
+  meaning: temperature
+  important: false
+- kanji: 三十度
+  kana: さんじゅうど
+  meaning: 30 degrees
+  important: false
+- kanji: 態度
+  kana: たいど
+  meaning: attitude
+  important: false
+
+- kanji: 赤
+  kana: あか
+  meaning: red color
+  important: true
+- kanji: 赤い
+  kana: あかい
+  meaning: red
+  important: true
+- kanji: 赤ちゃん
+  kana: あかちゃん
+  meaning: baby
+  important: false
+- kanji: 赤道
+  kana: せきどう
+  meaning: the equator
+  important: false
+- kanji: 赤十字
+  kana: せきじゅうじ
+  meaning: the Red Cross
+  important: false
+
+- kanji: 青
+  kana: あお
+  meaning: blue color
+  important: true
+- kanji: 青い
+  kana: あおい
+  meaning: blue
+  important: true
+- kanji: 青年
+  kana: せいねん
+  meaning: youth
+  important: false
+- kanji: 青空
+  kana: あおぞら
+  meaning: blue sky
+  important: false
+- kanji: 青信号
+  kana: あおしんごう
+  meaning: green light
+  important: false
+
+- kanji: 色
+  kana: いろ
+  meaning: color
+  important: true
+- kanji: 色々
+  kana: いろいろ
+  meaning: various
+  important: false
+- kanji: 景色
+  kana: けしき
+  meaning: scenery
+  important: false
+- kanji: 特色
+  kana: とくしょく
+  meaning: characteristic
+  important: false

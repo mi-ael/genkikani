@@ -82,5 +82,179 @@
   meaning: swan
   important: false
 
-# 92
+- kanji: 雨
+  kana: あめ
+  meaning: rain
+  important: true
+- kanji: 雨季
+  kana: うき
+  meaning: rainy season
+  important: false
+- kanji: 梅雨
+  kana: つゆ
+  meaning: rainy seasoon
+  important: false
+- kanji: 大雨
+  kana: おおあめ
+  meaning: heavy rain
+  important: false
 
+- kanji: 書く
+  kana: かく
+  meaning: to write
+  important: true
+- kanji: 辞書
+  kana: じしょ
+  meaning: dictionary
+  important: false
+- kanji: 教科書
+  kana: きょうかしょ
+  meaning: textbook
+  important: false
+- kanji: 図書館
+  kana: としょかん
+  meaning: library
+  important: false
+
+- kanji: 友だち
+  kana: ともだち
+  meaning: friend
+  important: true
+  wanikani_kanji: 友達
+  note: 友だち is usually written with the first part kanji and the second part hiragana.
+- kanji: 親友
+  kana: しんゆう
+  meaning: best friend
+  important: false
+- kanji: 友人
+  kana: ゆうじん
+  meaning: friend
+  important: false
+- kanji: 友情
+  kana: ゆうじょう
+  meaning: friendship
+  important: false
+
+- kanji: 時間
+  kana: じかん
+  meaning: time
+  important: true
+- kanji: 二時間
+  kana: にじかん
+  meaning: two hours
+  important: true
+- kanji: 間
+  kana: あいだ
+  meaning: between
+  important: true
+- kanji: 人間
+  kana: にんげん
+  meaning: human being
+  important: false
+- kanji: 一週間
+  kana: いっしゅうかん
+  meaning: one week
+  important: false
+
+- kanji: 家
+  kana: いえ／うち
+  meaning: house; home
+  important: true
+- kanji: 家族
+  kana: かぞく
+  meaning: family
+  important: false
+# house; home omitted
+- kanji: 家内
+  kana: かない
+  meaning: my wife
+  important: false
+- kanji: 作家
+  kana: さっか
+  meaning: author
+  important: false
+
+- kanji: 話す
+  kana: はなす
+  meaning: to speak
+  important: true
+- kanji: 話
+  kana: はなし
+  meaning: talk; story
+  important: true
+- kanji: 電話
+  kana: でんわ
+  meaning: telephone
+  important: true
+- kanji: 会話
+  kana: かいわ
+  meaning: conversation
+  important: false
+
+- kanji: 少し
+  kana: すこし
+  meaning: little
+  important: true
+- kanji: 少ない
+  kana: すくない
+  meaning: few
+  important: false
+- kanji: 少々
+  kana: しょうしょう
+  meaning: a little
+  important: false
+- kanji: 少女
+  kana: しょうじょ
+  meaning: girl
+  important: false
+- kanji: 少年
+  kana: しょうねん
+  meaning: boy
+  important: false
+
+- kanji: 古い
+  kana: ふるい
+  meaning: old (for things)
+  important: true
+- kanji: 中古
+  kana: ちゅうこ
+  meaning: secondhand
+  important: false
+- kanji: 古代
+  kana: こだい
+  meaning: ancient times
+  important: false
+
+- kanji: 知る
+  kana: しる
+  meaning: to know
+  important: true
+- kanji: 知人
+  kana: ちじん
+  meaning: acquaintance
+  important: false
+- kanji: 知り合い
+  kana: しりあい
+  meaning: acquaintance
+  important: false
+
+- kanji: 来る
+  kana: くる
+  meaning: to come
+  important: true
+- kanji: 来ます
+  kana: きます
+  meaning: to come
+  important: true
+- kanji: 来ない
+  kana: こない
+  meaning: not to come
+  important: true
+- kanji: 来週
+  kana: らいしゅう
+  meaning: next week
+  important: false
+- kanji: 来日
+  kana: らいにち
+  meaning: visit to japan
+  important: false
