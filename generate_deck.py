@@ -127,19 +127,29 @@ def main():
         exists_in_wanikani = True
         vocab_data = deepcopy(wanikani_data)
       except StopIteration:
-        print(f'vocab \'{vocab_entry["kanji"]}\' not found in wanikani data')
         try:
-          vocab_data = {
-            'word': vocab_entry['kanji'],
-            'meanings': [vocab_entry['meaning']],
-            'readings': [vocab_entry['kana']],
-            'components': [e for e in [next((key for key, obj in kanjis.items() if obj['word'] == k), None) for k in vocab_entry['kanji']] if e is not None],
-            'meaning_mnemonic': '',
-            'reading_mnemonic': '',
-            'sound': '',
-          }
+          if 'wanikani_kanji' not in vocab_entry: raise StopIteration()
+          id,wanikani_data = next((key,obj) for key, obj in vocabulary.items() if obj['word'] == vocab_entry['wanikani_kanji'])
+          exists_in_wanikani = True
+          vocab_data = deepcopy(wanikani_data)
+          vocab_data['full_kanji'] = vocab_data['word']
+          vocab_data['word'] = vocab_entry['kanji']
+          vocab_data['note'] = vocab_entry['note']
+          
         except StopIteration:
-          print(f'can\'t find one of the kanji in {vocab_entry["kanji"]}') # currently unused
+          print(f'vocab \'{vocab_entry["kanji"]}\' not found in wanikani data')
+          try:
+            vocab_data = {
+              'word': vocab_entry['kanji'],
+              'meanings': [vocab_entry['meaning']],
+              'readings': [vocab_entry['kana']],
+              'components': [e for e in [next((key for key, obj in kanjis.items() if obj['word'] == k), None) for k in vocab_entry['kanji']] if e is not None],
+              'meaning_mnemonic': '',
+              'reading_mnemonic': '',
+              'sound': '',
+            }
+          except StopIteration:
+            print(f'can\'t find one of the kanji in {vocab_entry["kanji"]}') # currently unused
 
       perform_vocab_transformations(vocab_data)
 

@@ -169,6 +169,13 @@ vocab_backside="""
 vocab_frontside="""
 {{FrontSide}}
 
+{{#full_kanji}}
+<br>
+<span class="text"><u><b>Full Kanji Version</b></u></span><br>
+<span class="text">{{full_kanji}}</span>
+<br>
+{{/full_kanji}}
+
 <br>
 <span class="text"><u><b>Meaning</b></u></span><br>
 <font size="50px"><span class="text"><font color="#e9e9e9">{{meanings}}</font></span></font>
@@ -198,6 +205,12 @@ vocab_frontside="""
 <span class="text">{{reading_mnemonic}}</span>
 <br>
 {{/reading_mnemonic}}
+{{#note}}
+<br>
+<span class="text"><u><b>Note</b></u></span><br>
+<span class="text">{{note}}</span>
+<br>
+{{/note}}
 <br>
 {{#sentences}}
 <br>
@@ -225,7 +238,7 @@ class GenkiNoteKanji(genanki.Note):
 class GenkiNoteVocab(genanki.Note):
   @property
   def guid(self):
-      return genanki.guid_for(self.fields[10]) # uid
+      return genanki.guid_for(self.fields[12]) # uid
 
 def gen_vocab_deck(deck, deckpath: str, model: genanki.Model, uuid:int, sounds:List[str]) -> genanki.Deck:
   full_name = f'{deckpath}'
@@ -243,6 +256,8 @@ def gen_vocab_deck(deck, deckpath: str, model: genanki.Model, uuid:int, sounds:L
               c['kanjis_names'],
               c['type'],
               c['sentences'],
+              c['note'] if 'note' in c else '',
+              c['full_kanji'] if 'full_kanji' in c else '',
               f"[sound:{c['sound']}]" if c['sound'] != '' else '',
               f'{full_name}::{", ".join(c["meanings"])}', 
           ],
@@ -355,6 +370,8 @@ def export_to_anki(decks: List, images: List):
           {'name': 'kanjis_names'},
           {'name': 'type'},
           {'name': 'sentences'},
+          {'name': 'note'},
+          {'name': 'full_kanji'},
           {'name': 'sound'},
           {'name': 'uuid'},
       ],
