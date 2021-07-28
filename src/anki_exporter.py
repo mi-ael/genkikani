@@ -177,6 +177,12 @@ vocab_frontside="""
 <span class="text"><u><b>On'yomi</b></u></span><br>
 <font size="50px"><span class="text"><font color="#e9e9e9">{{readings}}</font></span></font>
 <br>
+{{#type}}
+<br>
+<span class="text"><u><b>Type</b></u></span><br>
+<span class="text">{{type}}</span>
+<br>
+{{/type}}
 <br>
 <span class="text"><b>Kanjis:</b></span> <font color="#e9e9e9"><span class="hiragana"><b>{{kanjis}}</b></span></font>&nbsp;<span class="text">({{kanjis_names}})</span>
 <br>
@@ -193,6 +199,14 @@ vocab_frontside="""
 <br>
 {{/reading_mnemonic}}
 <br>
+{{#sentences}}
+<br>
+<span class="text"><u><b>Sentences</b></u></span><br>
+<span class="text">{{sentences}}</span>
+<br>
+{{/sentences}}
+<br>
+
 {{#sound}}
 {{sound}}
 {{/sound}}
@@ -211,7 +225,7 @@ class GenkiNoteKanji(genanki.Note):
 class GenkiNoteVocab(genanki.Note):
   @property
   def guid(self):
-      return genanki.guid_for(self.fields[8]) # uid
+      return genanki.guid_for(self.fields[10]) # uid
 
 def gen_vocab_deck(deck, deckpath: str, model: genanki.Model, uuid:int, sounds:List[str]) -> genanki.Deck:
   full_name = f'{deckpath}'
@@ -227,6 +241,8 @@ def gen_vocab_deck(deck, deckpath: str, model: genanki.Model, uuid:int, sounds:L
               c['reading_mnemonic'],
               c['kanjis'],
               c['kanjis_names'],
+              c['type'],
+              c['sentences'],
               f"[sound:{c['sound']}]" if c['sound'] is not None or c['sound'] != '' else '',
               f'{full_name}::{", ".join(c["meanings"])}', 
           ],
@@ -336,6 +352,8 @@ def export_to_anki(decks: List, images: List):
           {'name': 'reading_mnemonic'},
           {'name': 'kanjis'},
           {'name': 'kanjis_names'},
+          {'name': 'type'},
+          {'name': 'sentences'},
           {'name': 'sound'},
           {'name': 'uuid'},
       ],
@@ -364,15 +382,15 @@ def export_to_anki(decks: List, images: List):
     anki_decks.append(kanji_deck)
 
     # vocabulary important
-    vocab_deck_important = gen_vocab_deck(lection['vocabulary_important'], f'{deck_name}::{lection["name"]}::2 Vocabulary Important', anki_model_vocabulary, start_uuid + i*10 + 2, sound_files)
+    vocab_deck_important = gen_vocab_deck(lection['vocabulary_important'], f'{deck_name}::{lection["name"]}::2 Vocabulary', anki_model_vocabulary, start_uuid + i*10 + 2, sound_files)
     anki_decks.append(vocab_deck_important)
 
     # vocabulary wanikani
-    vocab_deck_unimportant = gen_vocab_deck(lection['vocabulary_wanikani'], f'{deck_name}::{lection["name"]}::3 Additional Wanikani Vocabulary', anki_model_vocabulary, start_uuid + i*10 + 3, sound_files)
+    vocab_deck_unimportant = gen_vocab_deck(lection['vocabulary_wanikani'], f'{deck_name}::{lection["name"]}::3 Additional Vocabulary', anki_model_vocabulary, start_uuid + i*10 + 3, sound_files)
     anki_decks.append(vocab_deck_unimportant)
 
     # vocabulary unimportant
-    vocab_deck_unimportant = gen_vocab_deck(lection['vocabulary_unimportant'], f'{deck_name}::{lection["name"]}::4 Vocabulary Unimportant', anki_model_vocabulary, start_uuid + i*10 + 4, sound_files)
+    vocab_deck_unimportant = gen_vocab_deck(lection['vocabulary_unimportant'], f'{deck_name}::{lection["name"]}::4 Unimportant Vocabulary', anki_model_vocabulary, start_uuid + i*10 + 4, sound_files)
     anki_decks.append(vocab_deck_unimportant)
   
   anki_package = genanki.Package(anki_decks)

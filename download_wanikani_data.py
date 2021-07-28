@@ -57,6 +57,8 @@ for e in flat_vocab:
     components = data['component_subject_ids']
     meaning_mnemonic = data['meaning_mnemonic']
     reading_mnemonic = data['reading_mnemonic']
+    usage = data['parts_of_speech']
+    sentences = data['context_sentences']
     audio_url_female = select_audio(data['pronunciation_audios'], 'female')
     audio_filename_female = get_filename(audio_url_female) if audio_url_female is not None else None
     if audio_filename_female is not None:
@@ -65,7 +67,7 @@ for e in flat_vocab:
             o.write(audio.content)
     audio_url_male = select_audio(data['pronunciation_audios'], 'male')
     audio_filename_male = get_filename(audio_url_male) if audio_url_male is not None else None
-    if audio_filename_male is not None:
+    if audio_filename_male is not None:# and False:
         audio = requests.get(audio_url_male)
         with open(f'data/wanikani/sound/{audio_filename_male}', 'wb') as o:
             o.write(audio.content)
@@ -76,6 +78,8 @@ for e in flat_vocab:
         'components': components,
         'meaning_mnemonic': meaning_mnemonic,
         'reading_mnemonic': reading_mnemonic,
+        'usage': usage,
+        'sentences': sentences,
         'sound_male': audio_filename_male,
         'sound_female': audio_filename_female
     }

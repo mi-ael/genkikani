@@ -23,10 +23,10 @@
   kana: に
   meaning: two
   important: true
-- kanji: 二時
-  kana: にじ
-  meaning: two o'clock
-  important: true
+# - kanji: 二時
+#   kana: にじ
+#   meaning: two o'clock
+#   important: true
 - kanji: 二年生
   kana: にねんせい
   meaning: second-year student
@@ -44,10 +44,10 @@
   kana: さん
   meaning: three
   important: true
-- kanji: 三時
-  kana: さんじ
-  meaning: three o'clock
-  important: true
+# - kanji: 三時
+#   kana: さんじ
+#   meaning: three o'clock
+#   important: true
 - kanji: 三年生
   kana: さんねんせい
   meaning: third-year student
@@ -65,10 +65,10 @@
   kana: よん
   meaning: four
   important: true
-- kanji: 四時
-  kana: よじ
-  meaning: four o'clock
-  important: true
+# - kanji: 四時
+#   kana: よじ
+#   meaning: four o'clock
+#   important: true
 - kanji: 四年生
   kana: よねんせい
   meaning: fourth-year student
@@ -81,15 +81,18 @@
   kana: よっつ
   meaning: four things
   important: false
+# added for completeness
+- kanji: 四十
+  important: false
 
 - kanji: 五
   kana: ご
   meaning: five
   important: true
-- kanji: 五時
-  kana: ごじ
-  meaning: five o'clock
-  important: true
+# - kanji: 五時
+#   kana: ごじ
+#   meaning: five o'clock
+#   important: true
 - kanji: 五月
   kana: ごがつ
   meaning: May
@@ -102,15 +105,18 @@
   kana: いつつ
   meaning: five things
   important: false
+# added for completeness
+- kanji: 五十
+  important: false
 
 - kanji: 六
   kana: ろく
   meaning: six
   important: true
-- kanji: 六時
-  kana: ろくじ
-  meaning: six o'clock
-  important: true
+# - kanji: 六時
+#   kana: ろくじ
+#   meaning: six o'clock
+#   important: true
 - kanji: 六百
   kana: ろっぴゃく
   meaning: six hundred
@@ -123,15 +129,18 @@
   kana: むっつ
   meaning: six
   important: false
+# added for completeness
+- kanji: 十六
+  important: false
 
 - kanji: 七
   kana: なな
   meaning: seven
   important: true
-- kanji: 七時
-  kana: しちじ
-  meaning: seven o'clock
-  important: true
+# - kanji: 七時
+#   kana: しちじ
+#   meaning: seven o'clock
+#   important: true
 - kanji: 七月
   kana: しちがつ
   meaning: July
@@ -149,10 +158,10 @@
   kana: はち
   meaning: eight
   important: true
-- kanji: 八時
-  kana: はちじ
-  meaning: eight o'clock
-  important: true
+# - kanji: 八時
+#   kana: はちじ
+#   meaning: eight o'clock
+#   important: true
 - kanji: 八百
   kana: はっぴゃく
   meaning: eight hundred
@@ -170,10 +179,10 @@
   kana: きゅう
   meaning: nine
   important: true
-- kanji: 九時
-  kana: きじ
-  meaning: nine o'clock
-  important: true
+# - kanji: 九時
+#   kana: きじ
+#   meaning: nine o'clock
+#   important: true
 - kanji: 九月
   kana: くがつ
   meaning: September
@@ -191,10 +200,10 @@
   kana: じゅう
   meaning: ten
   important: true
-- kanji: 十時
-  kana: じゅうじ
-  meaning: ten o'clock
-  important: true
+# - kanji: 十時
+#   kana: じゅうじ
+#   meaning: ten o'clock
+#   important: true
 - kanji: 十月
   kana: じゅうがつ
   meaning: October
@@ -213,10 +222,19 @@
   kana: ひゃく
   meaning: hundred
   important: true
+# added for completeness
+- kanji: 二百
+  important: false
 - kanji: 三百
   kana: さんびゃく
   meaning: three hundred
   important: true
+# added for completeness
+- kanji: 四百
+  important: false
+# added for completeness
+- kanji: 五百
+  important: false
 - kanji: 六百
   kana: ろっぴゃく
   meaning: six hundred
@@ -230,23 +248,29 @@
   kana: せん
   meaning: thousand
   important: true
-- kanji: 三千
-  kana: さんぜん
-  meaning: three thousand
-  important: true
-- kanji: 八千
-  kana: はっせん
-  meaning: eight thousand
-  important: true
+# - kanji: 三千
+#   kana: さんぜん
+#   meaning: three thousand
+#   important: true
+# - kanji: 八千
+#   kana: はっせん
+#   meaning: eight thousand
+#   important: true
 - kanji: 千円
   kana: せんえん
   meaning: one thousand yen
   important: true
+# added for completeness
+- kanji: 四千
+  important: false
 
 - kanji: 一万
   kana: いちまん
   meaning: ten thousand
   important: true
+# added for completeness
+- kanji: 二万
+  important: false
 - kanji: 十万
   kana: じゅうまん
   meaning: one hundred thousand
@@ -256,13 +280,14 @@
   meaning: one million
   important: true
 
-- kanji: 百円
-  kana: ひゃくえん
-  meaning: one hundred yen
-  important: true
-- kanji: 円
+
+# - kanji: 百円
+#   kana: ひゃくえん
+#   meaning: one hundred yen
+#   important: true
+- kanji: 〜円
   kana: えん
-  meaning: circle
+  meaning: yen
   important: false
 - kanji: 円高
   kana: えんだか
@@ -273,10 +298,16 @@
   meaning: round
   important: false
 
-- kanji: 一時
-  kana: いちじ
-  meaning: one o'clock
-  important: true
+# generalisation
+# - kanji: 一時
+#   kana: いちじ
+#   meaning: one o'clock
+#   important: true
+# added for completeness
+- kanji: 時
+  important: false
+- kanji: 〜時
+  important: false
 - kanji: 時間
   kana: じかん
   meaning: time; ... hours
