@@ -4,8 +4,6 @@
   - reading: きょう
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 子
   meaning: child
   onyomi:
@@ -38,8 +36,6 @@
   - reading: じゃ
     important: false
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 父
   meaning: father
   onyomi:
@@ -74,32 +70,24 @@
   - reading: こう
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 毎
   meaning: every
   onyomi:
   - reading: まい
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 語
   meaning: word
   onyomi:
   - reading: ご
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 文
   meaning: sentence
   onyomi:
   - reading: ぶん
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 帰
   meaning: to return
   onyomi:

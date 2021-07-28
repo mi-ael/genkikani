@@ -104,8 +104,6 @@
   - reading: ぴゃく
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 千
   meaning: thousand
   onyomi:
@@ -114,16 +112,12 @@
   - reading: ぜん
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 万
   meaning: ten thousand
   onyomi:
   - reading: まん
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 円
   meaning: yen; circle
   onyomi:

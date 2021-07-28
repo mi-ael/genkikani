@@ -5,9 +5,7 @@ import os
 import requests
 import sys
 
-audio_type = 'female' # or male
-
-def select_audio(audios):
+def select_audio(audios, audio_type):
     if len(audios) == 0:
         return None
     if len(audios) == 1:
@@ -59,11 +57,17 @@ for e in flat_vocab:
     components = data['component_subject_ids']
     meaning_mnemonic = data['meaning_mnemonic']
     reading_mnemonic = data['reading_mnemonic']
-    audio_url = select_audio(data['pronunciation_audios'])
-    audio_filename = get_filename(audio_url) if audio_url is not None else None
-    if audio_filename is not None:
-        audio = requests.get(audio_url)
-        with open(f'data/wanikani/sound/{audio_filename}', 'wb') as o:
+    audio_url_female = select_audio(data['pronunciation_audios'], 'female')
+    audio_filename_female = get_filename(audio_url_female) if audio_url_female is not None else None
+    if audio_filename_female is not None:
+        audio = requests.get(audio_url_female)
+        with open(f'data/wanikani/sound/{audio_filename_female}', 'wb') as o:
+            o.write(audio.content)
+    audio_url_male = select_audio(data['pronunciation_audios'], 'male')
+    audio_filename_male = get_filename(audio_url_male) if audio_url_male is not None else None
+    if audio_filename_male is not None:
+        audio = requests.get(audio_url_male)
+        with open(f'data/wanikani/sound/{audio_filename_male}', 'wb') as o:
             o.write(audio.content)
     vocab_dict[_id] = {
         'word': word,
@@ -72,7 +76,8 @@ for e in flat_vocab:
         'components': components,
         'meaning_mnemonic': meaning_mnemonic,
         'reading_mnemonic': reading_mnemonic,
-        'sound': audio_filename
+        'sound_male': audio_filename_male,
+        'sound_female': audio_filename_female
     }
 
 with open('data/wanikani/vocabulary.yaml', 'w+') as o:

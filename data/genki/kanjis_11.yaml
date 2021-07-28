@@ -48,16 +48,12 @@
   - reading: びょう
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 院
   meaning: institution
   onyomi:
   - reading: いん
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 映
   meaning: to reflect
   onyomi:
@@ -74,8 +70,6 @@
   - reading: かく
     important: false
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 歌
   meaning: to sing
   onyomi:

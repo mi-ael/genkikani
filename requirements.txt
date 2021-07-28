@@ -7,3 +7,4 @@ orderedset
 cachier
 wanikani-api
 jaconv
+googledrivedownloader

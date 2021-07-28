@@ -1,19 +1,13 @@
 - kanji: 昔
   meaning: ancient times
   onyomi:
-  - reading: ''
-    important: false
   kunyomi:
   - reading: むかし
     important: true
 - kanji: 々
   meaning: symbol of repetition of a kanji
   onyomi:
-  - reading: ''
-    important: false
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 神
   meaning: God
   onyomi:
@@ -90,8 +84,6 @@
   - reading: ど
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 赤
   meaning: red
   onyomi:

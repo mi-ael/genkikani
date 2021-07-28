@@ -1,5 +1,5 @@
 from ruamel.yaml import YAML
-from typing import List
+from typing import Any, Dict, List
 from pathlib import Path
 from src.anki_exporter import export_to_anki
 from copy import deepcopy
@@ -9,6 +9,13 @@ yaml=YAML()
 kanjis = yaml.load(Path('data/wanikani/kanjis.yaml'))
 radicals = yaml.load(Path('data/wanikani/radicals.yaml'))
 vocabulary = yaml.load(Path('data/wanikani/vocabulary.yaml'))
+
+def find_vocab(vocab:str) -> Dict[str, Any]:
+  try:
+    return next(obj for key, obj in vocabulary.items() if obj['word'] == vocab)
+  except StopIteration:
+    return None
+
 
 def unique(l):
     # requires python 3.7 for order
@@ -24,17 +31,31 @@ def get_radicals_for_kanji(kanji:int) -> List[int]:
   return kanji_data['components']
 
 def mark_important(kanas:str) -> str:
-  return f'<span stile="background-color: rgba(255, 0, 0, 0.3);">{kanas}</span>'
+  return f'<span style="background-color: rgba(235, 84, 5, 0.1);">{kanas}</span>'
 
 def get_radical_or_img_tag(c:dict, big:bool = False):
   return c['word'] if c['word'] is not None else f"<img class=\"{'big'if big else 'small'}\" src=\"{c['image_filename']}\">"
 
+def perform_vocab_transformations(vocab_data): # kinda bad name
+
+  if 'sound' not in vocab_data:
+    del vocab_data['sound_male']
+    vocab_data['sound'] = vocab_data['sound_female']
+    del vocab_data['sound_female']
+
+  component_ids = vocab_data['components']
+  component_data = [kanjis[i] for i in component_ids]
+  vocab_data['kanjis'] = ' '.join([k['word'] for k in component_data])
+  vocab_data['kanjis_names'] = ', '.join([k['meanings'][0] for k in component_data])
 
 def main():
   genki_dir = Path('data/genki/')
   already_included_radicals = []
   lections = []
   images = []
+  alread_learned_kanji_ids = set()
+  alread_learned_vocab_ids = set()
+  alread_learned_wanikani_vocab_ids = set()
   for f in filter(lambda x: x.name.startswith('kanji'), sorted(genki_dir.iterdir())):
     lection_data = yaml.load(f)
     vocab_lection_path = f.parent / f.name.replace('kanjis', 'vocab')
@@ -58,8 +79,12 @@ def main():
     genkikani_kanjis = []
     for kanji_id, genki_data in zip(lection_kanji_ids, lection_data):
       kanji_data = deepcopy(kanjis[kanji_id])
-      important_onyomi = [reading['reading'] for reading in genki_data['onyomi'] if reading['important'] == True]
-      important_kunyomi = [reading['reading'] for reading in genki_data['kunyomi'] if reading['important'] == True]
+      onyomi_readings = genki_data.get('onyomi', []) 
+      if onyomi_readings is None: onyomi_readings = []
+      important_onyomi = [reading['reading'] for reading in onyomi_readings if reading['important'] == True]
+      kunyomi_readings = genki_data.get('kunyomi', [])
+      if kunyomi_readings is None: kunyomi_readings = []
+      important_kunyomi = [reading['reading'] for reading in kunyomi_readings if reading['important'] == True]
       kanji_data['readings_on'] = [reading if reading not in important_onyomi else mark_important(reading) for reading in kanji_data['readings_on']]
       kanji_data['readings_kun'] = [reading if reading not in important_kunyomi else mark_important(reading) for reading in kanji_data['readings_kun']]
       # convert components to radicals
@@ -74,14 +99,18 @@ def main():
       kanji_data['simmilar_kanji_names'] = ', '.join([k['meanings'][0] for k in simmilar_kanji_data])
 
       genkikani_kanjis.append(kanji_data)
+      alread_learned_kanji_ids.add(kanji_id)
 
     genkikani_vocabs_important = []
     genkikani_vocabs_unimportant = []
     for vocab_entry in vocab_lection_data:
       wanikani_data = None
       vocab_data = None
+      exists_in_wanikani = False
       try:
-        wanikani_data = next(obj for key, obj in vocabulary.items() if obj['word'] == vocab_entry['kanji'])
+        id,wanikani_data = next((key,obj) for key, obj in vocabulary.items() if obj['word'] == vocab_entry['kanji'])
+        exists_in_wanikani = True
+        alread_learned_vocab_ids.add(id)
         vocab_data = deepcopy(wanikani_data)
       except StopIteration:
         print(f'vocab \'{vocab_entry["kanji"]}\' not found in wanikani data')
@@ -98,22 +127,31 @@ def main():
         except StopIteration:
           print(f'can\'t find one of the kanji in {vocab_entry["kanji"]}') # currently unused
 
-      component_ids = vocab_data['components']
-      component_data = [kanjis[i] for i in component_ids]
-      vocab_data['kanjis'] = ' '.join([k['word'] for k in component_data])
-      vocab_data['kanjis_names'] = ', '.join([k['meanings'][0] for k in component_data])
+      perform_vocab_transformations(vocab_data)
 
-      if vocab_entry.get('important', False) == True:
+
+
+      if vocab_entry.get('important', False) == True or exists_in_wanikani:
         genkikani_vocabs_important.append(vocab_data)
       else:
         genkikani_vocabs_unimportant.append(vocab_data)
 
+    additional_wanikani_vocab = []
+    for id, v in vocabulary.items():
+      if id in alread_learned_vocab_ids or id in alread_learned_wanikani_vocab_ids: continue
+      if len(set(v['components']) & alread_learned_kanji_ids) == len(v['components']):
+        alread_learned_wanikani_vocab_ids.add(id)
+        vocab_data = deepcopy(v)
+        perform_vocab_transformations(vocab_data)
+        additional_wanikani_vocab.append(vocab_data)
+    
 
     lections.append({
       'name': f'Lection {f.name.split(".")[0].split("_")[1]}',
       'radicals': genkikani_radicals,
       'kanjis': genkikani_kanjis,
       'vocabulary_important': genkikani_vocabs_important,
+      'vocabulary_wanikani': additional_wanikani_vocab,
       'vocabulary_unimportant': genkikani_vocabs_unimportant,
     })
 

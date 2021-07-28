@@ -9,8 +9,6 @@
 - kanji: 川
   meaning: river
   onyomi:
-  - reading: ''
-    important: false
   kunyomi:
   - reading: かわ
     important: true
@@ -32,16 +30,12 @@
   - reading: き
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 天
   meaning: heaven
   onyomi:
   - reading: てん
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 私
   meaning: I; private
   onyomi:
@@ -61,8 +55,6 @@
 - kanji: 田
   meaning: rice field
   onyomi:
-  - reading: ''
-    important: false
   kunyomi:
   - reading: た
     important: true

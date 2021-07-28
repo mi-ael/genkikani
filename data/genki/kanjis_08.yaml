@@ -4,8 +4,6 @@
   - reading: いん
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 新
   meaning: new
   onyomi:
@@ -54,8 +52,6 @@
   - reading: でん
     important: true
   kunyomi:
-  - reading: ''
-    important: false
 - kanji: 車
   meaning: car
   onyomi:
@@ -109,8 +105,6 @@
 - kanji: 何
   meaning: what
   onyomi:
-  - reading: ''
-    important: false
   kunyomi:
   - reading: なに
     important: true
