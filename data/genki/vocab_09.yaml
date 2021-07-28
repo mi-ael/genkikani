@@ -18,7 +18,7 @@
 # P.M omitted
 - kanji: 〜の後
   kana: 〜のあと
-  meaning: later
+  meaning: after ...
   important: true
 - kanji: 後で
   kana: あとで
@@ -139,6 +139,9 @@
   kana: じかん
   meaning: time
   important: true
+# added for completeness
+- kanji: 〜間
+  important: false
 - kanji: 二時間
   kana: にじかん
   meaning: two hours

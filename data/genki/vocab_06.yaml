@@ -104,8 +104,8 @@
   kana: でぐち
   meaning: exit
   important: true
-- kanji: 出がける
-  kana: でがける
+- kanji: 出かける
+  kana: でかける
   meaning: to go out
   important: true
 - kanji: 出す
@@ -159,6 +159,9 @@
   meaning: left-handed
   important: false
 
+# added for completeness
+- kanji: 分
+  important: false
 - kanji: 五分
   kana: ごふん
   meaning: five minutes

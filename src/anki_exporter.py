@@ -243,11 +243,12 @@ def gen_vocab_deck(deck, deckpath: str, model: genanki.Model, uuid:int, sounds:L
               c['kanjis_names'],
               c['type'],
               c['sentences'],
-              f"[sound:{c['sound']}]" if c['sound'] is not None or c['sound'] != '' else '',
+              f"[sound:{c['sound']}]" if c['sound'] != '' else '',
               f'{full_name}::{", ".join(c["meanings"])}', 
           ],
           )
-    sounds.append(c['sound'])
+    if c['sound'] != '':
+      sounds.append(c['sound'])
     anki_deck.add_note(note)
   return anki_deck
 

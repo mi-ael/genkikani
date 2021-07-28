@@ -6,7 +6,7 @@
 - kanji: 京都
   kana: きょうと
   meaning: Kyoto
-  important: false
+  important: true
 - kanji: 上京する
   kana: じょうきょうする
   meaning: to go to the capital
@@ -16,6 +16,9 @@
   kana: こども
   meaning: child
   important: true
+  wanikani_kanji: 子供
+  note: 神さま is usually written with the first part kanji and the second part hiragana.
+
 # girl
 # boy
 - kanji: 女子学生

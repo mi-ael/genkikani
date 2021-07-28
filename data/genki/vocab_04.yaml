@@ -41,6 +41,14 @@
   kana: にほんじん
   meaning: Japanese people
   important: true
+# added for completeness
+- kanji: 人
+  important: false
+# added for completeness
+- kanji: 〜人
+  important: false
+- kanji: 一人
+  important: false
 - kanji: 一人で
   kana: ひとりで
   meaning: alone
@@ -224,9 +232,9 @@
   meaning: all year around
   important: false
 
-- kanji: 三時半
-  kana: さんじはん
-  meaning: half past three
+- kanji: 半
+  important: true
+- kanji: 二時半
   important: true
 - kanji: 半分
   kana: はんぶん

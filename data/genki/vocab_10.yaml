@@ -28,9 +28,12 @@
   meaning: correct answer
   important: false
 
-- kanji: 三年生
-  kana: せんねんせい
-  meaning: third-year student
+# - kanji: 三年生
+#   kana: せんねんせい
+#   meaning: third-year student
+#   important: true
+# added for completeness
+- kanji: 一年生
   important: true
 - kanji: 来年
   kana: らいねん
