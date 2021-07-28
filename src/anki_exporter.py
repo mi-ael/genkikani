@@ -178,11 +178,11 @@ vocab_frontside="""
 
 <br>
 <span class="text"><u><b>Meaning</b></u></span><br>
-<font size="50px"><span class="text"><font color="#e9e9e9">{{meanings}}</font></span></font>
+<font size="50px"><span class="text"><font color="#a900fd">{{meanings}}</font></span></font>
 <br>
 <br>
 <span class="text"><u><b>On'yomi</b></u></span><br>
-<font size="50px"><span class="text"><font color="#e9e9e9">{{readings}}</font></span></font>
+<font size="50px"><span class="text"><font color="#a900fd">{{readings}}</font></span></font>
 <br>
 {{#type}}
 <br>
@@ -191,7 +191,7 @@ vocab_frontside="""
 <br>
 {{/type}}
 <br>
-<span class="text"><b>Kanjis:</b></span> <font color="#e9e9e9"><span class="hiragana"><b>{{kanjis}}</b></span></font>&nbsp;<span class="text">({{kanjis_names}})</span>
+<span class="text"><b>Kanjis:</b></span> <font color="#a900fd"><span class="hiragana"><b>{{kanjis}}</b></span></font>&nbsp;<span class="text">({{kanjis_names}})</span>
 <br>
 {{#meaning_mnemonic}}
 <br>
