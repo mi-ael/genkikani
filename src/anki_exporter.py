@@ -181,7 +181,7 @@ vocab_frontside="""
 <font size="50px"><span class="text"><font color="#a900fd">{{meanings}}</font></span></font>
 <br>
 <br>
-<span class="text"><u><b>On'yomi</b></u></span><br>
+<span class="text"><u><b>Reading</b></u></span><br>
 <font size="50px"><span class="text"><font color="#a900fd">{{readings}}</font></span></font>
 <br>
 {{#type}}
