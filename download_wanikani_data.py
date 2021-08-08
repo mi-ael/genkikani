@@ -16,7 +16,7 @@ def select_audio(audios, audio_type):
     audios_3 = list(filter(lambda x: x['metadata']['gender'] == audio_type, audios_2))
     if len(audios_3) == 0:
         return audios_2[0]['url']
-    return audios_3[0]['url']
+    return audios_3[-1]['url']
 
 def get_filename(url):
     fragment_removed = url.split("#")[0]  # keep to left of first #
